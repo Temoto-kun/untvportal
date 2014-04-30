@@ -1,0 +1,182 @@
+/**
+ * Front-End Responsive (modern 2 mode)
+ *
+ * @package 	CTFramework
+ * @author		Sabri Taieb ( codezag )
+ * @copyright	Copyright (c) Sabri Taieb
+ * @link		http://codetemp.com
+ * @since		Version 1.0
+ *
+ */
+
+/** Responsive System Mode 3 **/
+
+/** =Responsive Media Query **/
+
+/* Smaller than 1320 */
+@media only screen and (max-width: 1319px) {
+	.kodda_social_link {
+		display: none;
+	}
+
+	.kodda_social_link_1 { display: inline-block !important; }
+	.kodda_social_link_2 { display: inline-block !important; }
+	.kodda_social_link_3 { display: inline-block !important; }
+
+}
+
+/* Smaller than 1200 */
+@media only screen and (max-width: 1199px) {
+
+	.kodda_responsive {
+		display: block;
+	}
+
+	.kodda_menu_mobile {
+		display: none !important;
+	}
+
+	/* Display These Top Levels */
+	.kodda_menu_mobile_1 { display: block !important; }
+
+	.kodda_menu_mobile_2 { display: block !important; }
+
+	.kodda_menu_mobile_3 { display: block !important; }
+
+	/* Hide These Top Levels */
+	.kodda_resp_menu_1 { display: none !important; }
+
+	.kodda_resp_menu_2 { display: none !important; }
+
+	.kodda_resp_menu_3 { display: none !important; }
+
+	/* Search Form */
+	.kodda_search_input {
+		width: 160px !important;
+	}
+
+}
+
+/* Smaller than 1024 */
+@media only screen and (max-width: 1023px) {
+
+	/* Hide These Top Levels */
+	.kodda_menu_mobile_3 { display: none !important; }
+
+	/* Display These Top Levels */
+	.kodda_resp_menu_3 { display: block !important; }
+
+	/* Max Thumbnail With */
+	.kodda_resp_posts_cat_container a,
+	.kodda_resp_posts_cat_container a img ,
+	.kodda_resp_posts_cat_container a span{
+		max-width: 880px;
+	}
+	.kodda_resp_posts_cat_container a img {
+		height: auto;
+	}
+
+}
+
+
+/* Smaller than 965 */
+@media only screen and (max-width: 964px) {
+	/* Max Thumbnail With */
+	.kodda_resp_posts_cat_container a,
+	.kodda_resp_posts_cat_container a img ,
+	.kodda_resp_posts_cat_container a span{
+		max-width: 800px !important;
+	}
+}
+
+/* Smaller than 865 */
+@media only screen and (max-width: 864px) {
+	/* Max Thumbnail With */
+	.kodda_resp_posts_cat_container a,
+	.kodda_resp_posts_cat_container a img ,
+	.kodda_resp_posts_cat_container a span{
+		max-width: 700px !important;
+	}
+}
+
+/* Smaller than 790 */
+@media only screen and (max-width: 789px) {
+	.kodda_resp_posts_cat_container a,
+	.kodda_resp_posts_cat_container a img ,
+	.kodda_resp_posts_cat_container a span{
+		max-width: 600px !important;
+	}
+}
+
+/* Smaller than 700 */
+@media only screen and (max-width: 699px) {
+	.kodda_resp_posts_cat_container a,
+	.kodda_resp_posts_cat_container a img ,
+	.kodda_resp_posts_cat_container a span{
+		max-width: 500px !important;
+	}
+}
+
+/* Smaller than 600 */
+@media only screen and (max-width: 599px) {
+	.kodda_resp_posts_cat_container a,
+	.kodda_resp_posts_cat_container a img ,
+	.kodda_resp_posts_cat_container a span{
+		max-width: 400px !important;
+	}
+}
+
+/* Smaller than 500 */
+@media only screen and (max-width: 499px) {
+	.kodda_resp_posts_cat_container a,
+	.kodda_resp_posts_cat_container a img ,
+	.kodda_resp_posts_cat_container a span{
+		max-width: 300px !important;
+	}
+}
+
+/* Smaller than 400 */
+@media only screen and (max-width: 399px) {
+	.kodda_resp_posts_cat_container a,
+	.kodda_resp_posts_cat_container a img ,
+	.kodda_resp_posts_cat_container a span{
+		width: 250px !important;
+	}
+
+	.kodda_resp_posts_cat_container a {
+		margin-left: 0 !important;
+	}
+}
+
+/* Smaller than 750 */
+@media only screen and (max-width: 749px) {
+	/* Social Media */
+	.kodda_social_container { display: none !important; }
+
+	/* Hide These Top Levels */
+	.kodda_menu_mobile_2 { display: none !important; }
+
+	/* Display These Top Levels */
+	.kodda_resp_menu_2 { display: block !important; }
+}
+
+/* Smaller than 650 */
+@media only screen and (max-width: 649px) {
+	
+	/* Hide These Top Levels */
+	.kodda_menu_mobile_1 { display: none !important; }
+
+	/* Display These Top Levels */
+	.kodda_resp_menu_1 { display: block !important; }
+
+	/* Responsive Container */
+	.kodda_responsive { float: right !important; }
+
+	/* Search Container */
+	.kodda_search_container { display: none !important; }
+
+	/* Hide Title Right Border */
+	.kodda_title_container .kodda_top_link_right_border{
+		display: none !important;
+	}
+}
