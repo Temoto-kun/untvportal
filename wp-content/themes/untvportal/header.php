@@ -141,7 +141,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
   <div class="row">
     <div class="large-3 medium-3 small-12 columns">
       <a href="http://ava-themes.com/WP/United">                            
-        <img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/logo.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/logo@2x.png" alt=""/>
+        <img src="<?php echo get_template_directory_uri(); ?>/img/untvlogo.png" data-at2x="<?php echo get_template_directory_uri(); ?>/img/untvlogo.png" alt=""/>
                                          
       </a>          
     </div>
@@ -179,452 +179,1004 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 								<div class="kodda_resp_submenu_links_column">
 									<a href="http://ava-themes.com/WP/United/home-02/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Homepage 02 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a>
+								</div><!--kodda_resp_submenu_links_column-->
+
+								<div class="kodda_resp_submenu_links_column">
+									<a href="http://ava-themes.com/WP/United/home-03/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Homepage 03 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a>
+								</div><!--kodda_resp_submenu_links_column-->
+
+								<div class="kodda_resp_submenu_links_column">
+									<a href="http://ava-themes.com/WP/United/home-04/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Homepage 04 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a>
+								</div><!--kodda_resp_submenu_links_column-->
+
+								<div class="kodda_resp_submenu_links_column">
+									<a href="http://ava-themes.com/WP/United/home-05/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Homepage 05 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a>
+								</div><!--kodda_resp_submenu_links_column-->
+							</div><!--kodda_resp_submenu-->
+						</div><!--kodda_resp_menu-->
+
+						<div class="kodda_resp_menu kodda_resp_menu_2 kodda_resp_menu_posts" data-menu_type="posts" >
+
+							<a href="#" class="kodda_resp_top_link  " data-prevent="yes" >Formats 
+								<span class="ct_font_box" >
+									<span aria-hidden="true" class="icon ct-carret-down" ></span>
+								</span> 
+							</a>
+
+								<div class="kodda_resp_submenu kodda_resp_submenu_1">
+									<div class="kodda_resp_submenu_posts_content_cat" >
+										<div class="kodda_clearfix" ></div>
+										<a class="kodda_resp_posts_cat kodda_resp_posts_cat_1 " href="http://ava-themes.com/WP/United/crimes-of-the-hot-5/" data-prevent="yes" >Video 
+											<span class="ct_font_box" >
+												<span aria-hidden="true" class="icon ct-carret-down" ></span>
+											</span> 
+										</a> 
+										<div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_1" data-parent_cat="421b47ffd946ca083b65cd668c6b17e6" >
+
+											<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+	                                            <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+	                                            <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+	                                         </a>
+
+	                                         <a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+	                                             <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+
+	                                             <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+
+                                             </a>
+
+                                             <a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+                                                  
+                                                  <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+                                               	  
+                                               	  <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+                                             </a> 
+
+                                             <div class="kodda_clearfix"></div>
+										</div>
+									</div><!--kodda_resp_submenu_posts_content_cat-->
+
+									<div class="kodda_resp_submenu_posts_content_cat" >
+																									
+										<div class="kodda_clearfix" ></div>
+										
+										<a class="kodda_resp_posts_cat kodda_resp_posts_cat_2 " href="http://ava-themes.com/WP/United/crimes-of-the-hot-8/" data-prevent="yes" >Audio 
+											<span class="ct_font_box" >
+												<span aria-hidden="true" class="icon ct-carret-down" ></span>
+											</span> 
+										</a>
+
+										<div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_2" data-parent_cat="a5ca0b5894324f8bb54bb9fffad29d1e" >
+											<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+                                               	<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+                                                <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+                                            </a>
+
+                                            <a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+                                                <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+                                                <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+                                            </a>
+                                            <a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+                                                <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+                                                <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+                                            </a> 
+                                            <div class="kodda_clearfix"></div>
+										</div>
+									</div><!--kodda_resp_submenu_posts_content_cat-->
+
+									<div class="kodda_resp_submenu_posts_content_cat" >
+										<div class="kodda_clearfix" ></div>
+										<a class="kodda_resp_posts_cat kodda_resp_posts_cat_3 " href="http://ava-themes.com/WP/United/recipe-orange-tart/" data-prevent="yes" >Gallery 
+											<span class="ct_font_box" >
+												<span aria-hidden="true" class="icon ct-carret-down" ></span>
+											</span> 
+										</a> 
+
+										<div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_3" data-parent_cat="2767cc3ede7592a47bd6657e3799565c" >
+
+											<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+                                                <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+                                                <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+                                            </a>
+
+                                            <a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+                                                <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+                                                <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+                                            </a>
+
+                                            <a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+                                                <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+                                                <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+                                            </a> 
+                                            <div class="kodda_clearfix"></div>
+										</div>
+									</div><!--kodda_resp_submenu_posts_content_cat-->
+
+									<div class="kodda_resp_submenu_posts_content_cat" >
+										<div class="kodda_clearfix" ></div>
+											<a class="kodda_resp_posts_cat kodda_resp_posts_cat_4 " href="http://ava-themes.com/WP/United/your-imagination-your-freedom/" data-prevent="yes" >Quote 
+
+												<span class="ct_font_box" >
+													<span aria-hidden="true" class="icon ct-carret-down" ></span>
+												</span> 
+											</a> 
+
+											<div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_4" data-parent_cat="7a674c327bfa07f7c1204fb38ca6ef3b" >
+												<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+                                                 	<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+                                                    <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+                                                </a>
+
+                                               	<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+                                                    <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+                                                    <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+                                                </a>
+
+                                                <a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+                                                    <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+                                                    <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+                                                </a> 
+                                                <div class="kodda_clearfix"></div>
+											</div>
+										</div><!--kodda_resp_submenu_posts_content_cat-->
+
+										<div class="kodda_resp_submenu_posts_content_cat" >
+											<div class="kodda_clearfix" ></div>
+											<a class="kodda_resp_posts_cat kodda_resp_posts_cat_5 " href="http://ava-themes.com/WP/United/how-to-master-deviation-chic/" data-prevent="yes" >Standard 
+												<span class="ct_font_box" >
+													<span aria-hidden="true" class="icon ct-carret-down" ></span>
+												</span>
+											</a> 
+
+											<div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_5" data-parent_cat="c00f0c4675b91fb8b918e4079a0b1bac" >
+												<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+                                                	<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+                                                    <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+                                                </a>
+
+                                                <a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+                                                    <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+                                                    <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+                                                </a>
+                                               	<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+                                                    <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+                                                    <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+                                                </a> 
+                                                <div class="kodda_clearfix"></div>
+											</div>
+										</div><!--kodda_resp_submenu_posts_content_cat-->
+
+										<div class="kodda_resp_submenu_posts_content_cat" >
+											<div class="kodda_clearfix" ></div>
+											<a class="kodda_resp_posts_cat kodda_resp_posts_cat_6 " href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/" data-prevent="yes" >Image 
+												<span class="ct_font_box" >
+													<span aria-hidden="true" class="icon ct-carret-down" ></span>
+												</span> 
+											</a> 
+
+											<div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_6" data-parent_cat="78805a221a988e79ef3f42d7c5bfd418" >
+												<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+                                                    <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+                                                    <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+                                                </a>
+                                                <a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+                                                    <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+                                                    <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+                                                </a>
+
+                                                <a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+                                                    <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+                                                    <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+                                                </a> 
+                                                <div class="kodda_clearfix"></div>
+											</div>
+										</div><!--kodda_resp_submenu_posts_content_cat-->
+									</div><!--kodda_resp_submenu-->
+								</div><!--kodda_resp_menu-->
+
+							<div class="kodda_resp_menu kodda_resp_menu_3 kodda_resp_menu_posts" data-menu_type="posts" >
+
+								<a href="#" class="kodda_resp_top_link  " data-prevent="yes" >Features 
 									<span class="ct_font_box" >
-										<span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_submenu_links_column--><div class="kodda_resp_submenu_links_column"><a href="http://ava-themes.com/WP/United/home-03/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Homepage 03 <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_submenu_links_column--><div class="kodda_resp_submenu_links_column"><a href="http://ava-themes.com/WP/United/home-04/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Homepage 04 <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_submenu_links_column--><div class="kodda_resp_submenu_links_column"><a href="http://ava-themes.com/WP/United/home-05/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Homepage 05 <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_submenu_links_column--></div><!--kodda_resp_submenu--></div><!--kodda_resp_menu--><div class="kodda_resp_menu kodda_resp_menu_2 kodda_resp_menu_posts" data-menu_type="posts" >
+										<span aria-hidden="true" class="icon ct-carret-down" ></span>
+									</span> 
+								</a>
 
-																		<a href="#" class="kodda_resp_top_link  " data-prevent="yes" >Formats <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a><div class="kodda_resp_submenu kodda_resp_submenu_1" ] ><div class="kodda_resp_submenu_posts_content_cat" >
-																									<div class="kodda_clearfix" ></div>
-																									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_1 " href="http://ava-themes.com/WP/United/crimes-of-the-hot-5/" data-prevent="yes" >Video <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a> <div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_1" data-parent_cat="421b47ffd946ca083b65cd668c6b17e6" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-                                                                                                                                  </a> <div class="kodda_clearfix"></div>
-																													  </div></div><!--kodda_resp_submenu_posts_content_cat--><div class="kodda_resp_submenu_posts_content_cat" >
-																									<div class="kodda_clearfix" ></div>
-																									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_2 " href="http://ava-themes.com/WP/United/crimes-of-the-hot-8/" data-prevent="yes" >Audio <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a> <div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_2" data-parent_cat="a5ca0b5894324f8bb54bb9fffad29d1e" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-                                                                                                                                  </a> <div class="kodda_clearfix"></div>
-																													  </div></div><!--kodda_resp_submenu_posts_content_cat--><div class="kodda_resp_submenu_posts_content_cat" >
-																									<div class="kodda_clearfix" ></div>
-																									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_3 " href="http://ava-themes.com/WP/United/recipe-orange-tart/" data-prevent="yes" >Gallery <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a> <div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_3" data-parent_cat="2767cc3ede7592a47bd6657e3799565c" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-                                                                                                                                  </a> <div class="kodda_clearfix"></div>
-																													  </div></div><!--kodda_resp_submenu_posts_content_cat--><div class="kodda_resp_submenu_posts_content_cat" >
-																									<div class="kodda_clearfix" ></div>
-																									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_4 " href="http://ava-themes.com/WP/United/your-imagination-your-freedom/" data-prevent="yes" >Quote <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a> <div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_4" data-parent_cat="7a674c327bfa07f7c1204fb38ca6ef3b" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-                                                                                                                                  </a> <div class="kodda_clearfix"></div>
-																													  </div></div><!--kodda_resp_submenu_posts_content_cat--><div class="kodda_resp_submenu_posts_content_cat" >
-																									<div class="kodda_clearfix" ></div>
-																									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_5 " href="http://ava-themes.com/WP/United/how-to-master-deviation-chic/" data-prevent="yes" >Standard <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a> <div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_5" data-parent_cat="c00f0c4675b91fb8b918e4079a0b1bac" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-                                                                                                                                  </a> <div class="kodda_clearfix"></div>
-																													  </div></div><!--kodda_resp_submenu_posts_content_cat--><div class="kodda_resp_submenu_posts_content_cat" >
-																									<div class="kodda_clearfix" ></div>
-																									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_6 " href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/" data-prevent="yes" >Image <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a> <div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_6" data-parent_cat="78805a221a988e79ef3f42d7c5bfd418" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-                                                                                                                                  </a> <div class="kodda_clearfix"></div>
-																													  </div></div><!--kodda_resp_submenu_posts_content_cat--></div><!--kodda_resp_submenu--></div><!--kodda_resp_menu--><div class="kodda_resp_menu kodda_resp_menu_3 kodda_resp_menu_posts" data-menu_type="posts" >
+								<div class="kodda_resp_submenu kodda_resp_submenu_1" ] >
+									<div class="kodda_resp_submenu_posts_content_cat" >
+										<div class="kodda_clearfix" ></div>
+										<a class="kodda_resp_posts_cat kodda_resp_posts_cat_1 " href="http://ava-themes.com/WP/United/404-2/" data-prevent="yes" >404 
+											<span class="ct_font_box" >
+												<span aria-hidden="true" class="icon ct-carret-down" ></span>
+											</span> 
+										</a> 
+										<div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_1" data-parent_cat="4f4adcbf8c6f66dcfc8a3282ac2bf10a" >
 
-																		<a href="#" class="kodda_resp_top_link  " data-prevent="yes" >Features <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a><div class="kodda_resp_submenu kodda_resp_submenu_1" ] ><div class="kodda_resp_submenu_posts_content_cat" >
-																									<div class="kodda_clearfix" ></div>
-																									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_1 " href="http://ava-themes.com/WP/United/404-2/" data-prevent="yes" >404 <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a> <div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_1" data-parent_cat="4f4adcbf8c6f66dcfc8a3282ac2bf10a" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:351px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:351px;height:233px;" >
-                                                                                                                                        <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:351px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:351px;height:233px;" >
-                                                                                                                                        <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:351px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:351px;height:233px;" >
-                                                                                                                                        <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-                                                                                                                                  </a> <div class="kodda_clearfix"></div>
-																													  </div></div><!--kodda_resp_submenu_posts_content_cat--><div class="kodda_resp_submenu_posts_content_cat" >
-																									<div class="kodda_clearfix" ></div>
-																									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_2 " href="http://ava-themes.com/WP/United/about" data-prevent="yes" >About Us <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a> <div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_2" data-parent_cat="6d325f3293b99bb8d9d4974f773d2ad8" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-                                                                                                                                  </a> <div class="kodda_clearfix"></div>
-																													  </div></div><!--kodda_resp_submenu_posts_content_cat--><div class="kodda_resp_submenu_posts_content_cat" >
-																									<div class="kodda_clearfix" ></div>
-																									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_3 " href="http://ava-themes.com/WP/United/author/admin/" data-prevent="yes" >Author Page <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a> <div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_3" data-parent_cat="f38c7637be452c841e1af11328a4c006" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-                                                                                                                                  </a> <div class="kodda_clearfix"></div>
-																													  </div></div><!--kodda_resp_submenu_posts_content_cat--><div class="kodda_resp_submenu_posts_content_cat" >
-																									<div class="kodda_clearfix" ></div>
-																									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_4 " href="http://ava-themes.com/WP/United/?s=post" data-prevent="yes" >Search Results <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a> <div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_4" data-parent_cat="bd2870f95f5dca8143e47309720f6008" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-                                                                                                                                  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-                                                                                                                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-                                                                                                                                        <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-                                                                                                                                  </a> <div class="kodda_clearfix"></div>
-																													  </div></div><!--kodda_resp_submenu_posts_content_cat--></div><!--kodda_resp_submenu--></div><!--kodda_resp_menu--><div class="kodda_resp_menu kodda_resp_menu_4 kodda_resp_menu_dropdowns " data-menu_type="dropdowns" >
+										<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:351px;" >
+                                            <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:351px;height:233px;" >
+                                            <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+                                        </a>
+                                        <a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:351px;" >
+                                        	<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:351px;height:233px;" >
+                                            <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+                                        </a>
 
-																		<a href="" class="kodda_resp_top_link  " data-prevent="yes" >Categories <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a><div class="kodda_resp_submenu kodda_resp_submenu_1" ><div class="kodda_resp_submenu_links_column"><a href="http://ava-themes.com/WP/United/category/technology/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Technology <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_submenu_links_column--><div class="kodda_resp_submenu_links_column"><a href="http://ava-themes.com/WP/United/category/entertainment/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Entertainment <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_submenu_links_column--><div class="kodda_resp_submenu_links_column"><a href="http://ava-themes.com/WP/United/category/fashion/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Fashion <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_submenu_links_column--><div class="kodda_resp_submenu_links_column"><a href="http://ava-themes.com/WP/United/category/food/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Food <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_submenu_links_column--><div class="kodda_resp_submenu_links_column"><a href="http://ava-themes.com/WP/United/category/lifestyle_cat/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Lifestyle <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_submenu_links_column--><div class="kodda_resp_submenu_links_column"><a href="http://ava-themes.com/WP/United/category/sports/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Sports <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_submenu_links_column--></div><!--kodda_resp_submenu--></div><!--kodda_resp_menu--><div class="kodda_resp_menu kodda_resp_menu_5 kodda_resp_menu_links " data-menu_type="links" >
+                                        <a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:351px;" >
+                                            <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:351px;height:233px;" >
+                                            <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+                                        </a>
 
-																		<a href="http://ava-themes.com/WP/United/reviews_page/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Reviews <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_menu--><div class="kodda_resp_menu kodda_resp_menu_6 kodda_resp_menu_links " data-menu_type="links" >
+                                        <div class="kodda_clearfix"></div>
+									</div>
+								</div><!--kodda_resp_submenu_posts_content_cat-->
 
-																		<a href="http://ava-themes.com/WP/United/shortcodes/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Shortcodes <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_menu--><div class="kodda_resp_menu kodda_resp_menu_7 kodda_resp_menu_links " data-menu_type="links" >
+								<div class="kodda_resp_submenu_posts_content_cat" >
+									<div class="kodda_clearfix" ></div>
+									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_2 " href="http://ava-themes.com/WP/United/about" data-prevent="yes" >About Us 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a> 
 
-																		<a href="http://ava-themes.com/WP/United/shop/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Shop <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_menu--><div class="kodda_resp_menu kodda_resp_menu_8 kodda_resp_menu_links " data-menu_type="links" >
+									<div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_2" data-parent_cat="6d325f3293b99bb8d9d4974f773d2ad8" >
+										<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+	                                        <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+	                                        <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+                                        </a>
 
-																		<a href="http://ava-themes.com/WP/United/contact/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Contact <span class="ct_font_box" ><span aria-hidden="true" class="icon ct-carret-down" ></span></span> </a></div><!--kodda_resp_menu-->	</div>
-										  </div><!--kodda_responsive--><div class="kodda_menu kodda_menu_1 kodda_menu_mobile kodda_menu_mobile_1 kodda_menu_dropdowns" data-menu_type="dropdowns" style="position:relative;">
+                                        <a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+                                            <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+                                            <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+                                        </a>
 
-												<a href="http://ava-themes.com/WP/United/" class="kodda_top_link " data-prevent="yes" >Home<span class="ct_font_box"><span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span></span></a>
-												<span class="kodda_top_link_right_border"></span>
-											 <div class="kodda_submenu kodda_submenu_1" style="width:200px;" ><div class="kodda_submenu_dropdown_level_one" style="width:200px;" ><a href="http://ava-themes.com/WP/United/home-02/" data-prevent="yes" >Homepage 02 </a>
+                                        <a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+                                        	<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+                                            <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+                                        </a> 
+                                        <div class="kodda_clearfix"></div>
+									</div>
+								</div><!--kodda_resp_submenu_posts_content_cat-->
+
+								<div class="kodda_resp_submenu_posts_content_cat" >
+									<div class="kodda_clearfix" ></div>
+									
+									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_3 " href="http://ava-themes.com/WP/United/author/admin/" data-prevent="yes" >Author Page 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a> 
+
+									<div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_3" data-parent_cat="f38c7637be452c841e1af11328a4c006" >
+										<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+                                            <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+                                            <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+                                        </a>
+                                       	<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+                                            <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+                                            <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+                                        </a>
+
+                                        <a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+                                            <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+                                            <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+                                        </a> 
+                                        <div class="kodda_clearfix"></div>
+									</div>
+								</div><!--kodda_resp_submenu_posts_content_cat-->
+
+								<div class="kodda_resp_submenu_posts_content_cat" >
+									<div class="kodda_clearfix" ></div>
+									<a class="kodda_resp_posts_cat kodda_resp_posts_cat_4 " href="http://ava-themes.com/WP/United/?s=post" data-prevent="yes" >Search Results 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a> 
+
+									<div class="kodda_resp_posts_cat_container kodda_resp_posts_cat_container_4" data-parent_cat="bd2870f95f5dca8143e47309720f6008" >
+										<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+                                            <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+                                            <span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+                                        </a>
+
+                                        <a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+                                            <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+                                            <span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+                                        </a>
+
+                                        <a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+                                            <img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+                                            <span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+                                        </a> 
+                                        <div class="kodda_clearfix"></div>
+									</div>
+								</div><!--kodda_resp_submenu_posts_content_cat-->
+							</div><!--kodda_resp_submenu-->
+						</div><!--kodda_resp_menu-->
+
+						<div class="kodda_resp_menu kodda_resp_menu_4 kodda_resp_menu_dropdowns " data-menu_type="dropdowns" >
+
+							<a href="" class="kodda_resp_top_link  " data-prevent="yes" >Categories 
+								<span class="ct_font_box" >
+									<span aria-hidden="true" class="icon ct-carret-down" ></span>
+								</span> 
+							</a>
+
+							<div class="kodda_resp_submenu kodda_resp_submenu_1" >
+								<div class="kodda_resp_submenu_links_column">
+									<a href="http://ava-themes.com/WP/United/category/technology/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Technology 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a>
+								</div><!--kodda_resp_submenu_links_column-->
+
+								<div class="kodda_resp_submenu_links_column">
+									<a href="http://ava-themes.com/WP/United/category/entertainment/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Entertainment 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a>
+								</div><!--kodda_resp_submenu_links_column-->
+
+								<div class="kodda_resp_submenu_links_column">
+									<a href="http://ava-themes.com/WP/United/category/fashion/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Fashion 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a>
+								</div><!--kodda_resp_submenu_links_column-->
+
+								<div class="kodda_resp_submenu_links_column">
+									<a href="http://ava-themes.com/WP/United/category/food/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Food 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a>
+								</div><!--kodda_resp_submenu_links_column-->
+
+								<div class="kodda_resp_submenu_links_column">
+									<a href="http://ava-themes.com/WP/United/category/lifestyle_cat/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Lifestyle 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a>
+								</div><!--kodda_resp_submenu_links_column-->
+
+								<div class="kodda_resp_submenu_links_column">
+									<a href="http://ava-themes.com/WP/United/category/sports/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Sports 
+										<span class="ct_font_box" >
+											<span aria-hidden="true" class="icon ct-carret-down" ></span>
+										</span> 
+									</a>
+								</div><!--kodda_resp_submenu_links_column-->
+							</div><!--kodda_resp_submenu-->
+						</div><!--kodda_resp_menu-->
+
+						<div class="kodda_resp_menu kodda_resp_menu_5 kodda_resp_menu_links " data-menu_type="links" >
+
+							<a href="http://ava-themes.com/WP/United/reviews_page/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Reviews 
+								<span class="ct_font_box" >
+									<span aria-hidden="true" class="icon ct-carret-down" ></span>
+								</span> 
+							</a>
+						</div><!--kodda_resp_menu-->
+
+						<div class="kodda_resp_menu kodda_resp_menu_6 kodda_resp_menu_links " data-menu_type="links" >
+
+							<a href="http://ava-themes.com/WP/United/shortcodes/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Shortcodes 
+								<span class="ct_font_box" >
+									<span aria-hidden="true" class="icon ct-carret-down" ></span>
+								</span> 
+							</a>
+						</div><!--kodda_resp_menu-->
+
+						<div class="kodda_resp_menu kodda_resp_menu_7 kodda_resp_menu_links " data-menu_type="links" >
+
+							<a href="http://ava-themes.com/WP/United/shop/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Shop 
+								<span class="ct_font_box" >
+									<span aria-hidden="true" class="icon ct-carret-down" ></span>
+								</span> 
+							</a>
+						</div><!--kodda_resp_menu-->
+
+						<div class="kodda_resp_menu kodda_resp_menu_8 kodda_resp_menu_links " data-menu_type="links" >
+
+							<a href="http://ava-themes.com/WP/United/contact/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Contact 
+								<span class="ct_font_box" >
+									<span aria-hidden="true" class="icon ct-carret-down" ></span>
+								</span> 
+							</a>
+						</div><!--kodda_resp_menu-->	
+					</div>
+				</div><!--kodda_responsive-->
+
+				<div class="kodda_menu kodda_menu_1 kodda_menu_mobile kodda_menu_mobile_1 kodda_menu_dropdowns" data-menu_type="dropdowns" style="position:relative;">
+					<a href="http://ava-themes.com/WP/United/" class="kodda_top_link " data-prevent="yes" >Home
+
+						<span class="ct_font_box">
+							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
+						</span>
+					</a>
+
+					<span class="kodda_top_link_right_border"></span>
+
+					<div class="kodda_submenu kodda_submenu_1" style="width:200px;" >
+						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
+							<a href="http://ava-themes.com/WP/United/home-02/" data-prevent="yes" >Homepage 02 </a>
 																		  
-																		 </div><!--kodda_submenu_posts_categories--><div class="kodda_submenu_dropdown_level_one" style="width:200px;" ><a href="http://ava-themes.com/WP/United/home-03/" data-prevent="yes" >Homepage 03 </a>
-																		  
-																		 </div><!--kodda_submenu_posts_categories--><div class="kodda_submenu_dropdown_level_one" style="width:200px;" ><a href="http://ava-themes.com/WP/United/home-04/" data-prevent="yes" >Homepage 04 </a>
-																		  
-																		 </div><!--kodda_submenu_posts_categories--><div class="kodda_submenu_dropdown_level_one" style="width:200px;" ><a href="http://ava-themes.com/WP/United/home-05/" data-prevent="yes" >Homepage 05 </a>
-																		  
-																		 </div><!--kodda_submenu_posts_categories--></div><!--kodda_submenu--></div><!--kodda_menu--><div class="kodda_menu kodda_menu_2 kodda_menu_mobile kodda_menu_mobile_2 kodda_menu_posts" data-menu_type="posts" >
+						</div><!--kodda_submenu_posts_categories-->
 
-												<a href="#" class="kodda_top_link  " data-prevent="yes" >Formats<span class="ct_font_box"><span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span></span></a>
-												<span class="kodda_top_link_right_border"></span>
-											 <div class="kodda_submenu kodda_submenu_1" style="height:310px;" ><div class="kodda_submenu_posts_categories" style="height:310px;" ><a class="kodda_posts_cat kodda_posts_cat_1" href="http://ava-themes.com/WP/United/crimes-of-the-hot-5/" data-prevent="yes" data-encoded_cat="421b47ffd946ca083b65cd668c6b17e6" ><span>Video</span><span class="ct_font_box"><span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span></span></a><a class="kodda_posts_cat kodda_posts_cat_2" href="http://ava-themes.com/WP/United/crimes-of-the-hot-8/" data-prevent="yes" data-encoded_cat="a5ca0b5894324f8bb54bb9fffad29d1e" ><span>Audio</span><span class="ct_font_box"><span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span></span></a><a class="kodda_posts_cat kodda_posts_cat_3" href="http://ava-themes.com/WP/United/recipe-orange-tart/" data-prevent="yes" data-encoded_cat="2767cc3ede7592a47bd6657e3799565c" ><span>Gallery</span><span class="ct_font_box"><span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span></span></a><a class="kodda_posts_cat kodda_posts_cat_4" href="http://ava-themes.com/WP/United/your-imagination-your-freedom/" data-prevent="yes" data-encoded_cat="7a674c327bfa07f7c1204fb38ca6ef3b" ><span>Quote</span><span class="ct_font_box"><span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span></span></a><a class="kodda_posts_cat kodda_posts_cat_5" href="http://ava-themes.com/WP/United/how-to-master-deviation-chic/" data-prevent="yes" data-encoded_cat="c00f0c4675b91fb8b918e4079a0b1bac" ><span>Standard</span><span class="ct_font_box"><span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span></span></a><a class="kodda_posts_cat kodda_posts_cat_6" href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/" data-prevent="yes" data-encoded_cat="78805a221a988e79ef3f42d7c5bfd418" ><span>Image</span><span class="ct_font_box"><span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span></span></a></div><!--kodda_submenu_posts_categories--><div class="kodda_submenu_posts_all_posts" style="height:310px;" ><div class="kodda_posts_cat_container kodda_posts_cat_container_1 " data-parent_cat="421b47ffd946ca083b65cd668c6b17e6" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-																						<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-																					  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-																						<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-																					  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-																						<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-																					  </a></div><div class="kodda_posts_cat_container kodda_posts_cat_container_2 " data-parent_cat="a5ca0b5894324f8bb54bb9fffad29d1e" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-																						<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-																					  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-																						<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-																					  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-																						<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-																					  </a></div><div class="kodda_posts_cat_container kodda_posts_cat_container_3 " data-parent_cat="2767cc3ede7592a47bd6657e3799565c" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-																						<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-																					  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-																						<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-																					  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-																						<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-																					  </a></div><div class="kodda_posts_cat_container kodda_posts_cat_container_4 " data-parent_cat="7a674c327bfa07f7c1204fb38ca6ef3b" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-																						<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-																					  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-																						<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-																					  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-																						<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-																					  </a></div><div class="kodda_posts_cat_container kodda_posts_cat_container_5 " data-parent_cat="c00f0c4675b91fb8b918e4079a0b1bac" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-																						<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-																					  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-																						<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-																					  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-																						<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-																					  </a></div><div class="kodda_posts_cat_container kodda_posts_cat_container_6 " data-parent_cat="78805a221a988e79ef3f42d7c5bfd418" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-																						<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-																					  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-																						<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-																					  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-																						<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-																					  </a></div></div><!--kodda_submenu_posts_all_posts--></div><!--kodda_submenu--></div><!--kodda_menu--><div class="kodda_menu kodda_menu_3 kodda_menu_mobile kodda_menu_mobile_3 kodda_menu_posts" data-menu_type="posts" >
-
-												<a href="#" class="kodda_top_link  " data-prevent="yes" >Features<span class="ct_font_box"><span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span></span></a>
-												<span class="kodda_top_link_right_border"></span>
-											 <div class="kodda_submenu kodda_submenu_1" style="height:310px;" ><div class="kodda_submenu_posts_categories" style="height:310px;" ><a class="kodda_posts_cat kodda_posts_cat_1" href="http://ava-themes.com/WP/United/404-2/" data-prevent="yes" data-encoded_cat="4f4adcbf8c6f66dcfc8a3282ac2bf10a" ><span>404</span><span class="ct_font_box"><span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span></span></a><a class="kodda_posts_cat kodda_posts_cat_2" href="http://ava-themes.com/WP/United/about" data-prevent="yes" data-encoded_cat="6d325f3293b99bb8d9d4974f773d2ad8" ><span>About Us</span><span class="ct_font_box"><span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span></span></a><a class="kodda_posts_cat kodda_posts_cat_3" href="http://ava-themes.com/WP/United/author/admin/" data-prevent="yes" data-encoded_cat="f38c7637be452c841e1af11328a4c006" ><span>Author Page</span><span class="ct_font_box"><span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span></span></a><a class="kodda_posts_cat kodda_posts_cat_4" href="http://ava-themes.com/WP/United/?s=post" data-prevent="yes" data-encoded_cat="bd2870f95f5dca8143e47309720f6008" ><span>Search Results</span><span class="ct_font_box"><span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span></span></a></div><!--kodda_submenu_posts_categories--><div class="kodda_submenu_posts_all_posts" style="height:310px;" ><div class="kodda_posts_cat_container kodda_posts_cat_container_1 " data-parent_cat="4f4adcbf8c6f66dcfc8a3282ac2bf10a" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:351px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:351px;height:233px;" >
-																						<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-																					  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:351px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:351px;height:233px;" >
-																						<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-																					  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:351px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:351px;height:233px;" >
-																						<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-																					  </a></div><div class="kodda_posts_cat_container kodda_posts_cat_container_2 " data-parent_cat="6d325f3293b99bb8d9d4974f773d2ad8" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-																						<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-																					  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-																						<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-																					  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-																						<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-																					  </a></div><div class="kodda_posts_cat_container kodda_posts_cat_container_3 " data-parent_cat="f38c7637be452c841e1af11328a4c006" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-																						<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-																					  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-																						<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-																					  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-																						<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-																					  </a></div><div class="kodda_posts_cat_container kodda_posts_cat_container_4 " data-parent_cat="bd2870f95f5dca8143e47309720f6008" ><a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-																						<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-																					  </a><a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-																						<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-																					  </a><a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-																						<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-																						<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-																					  </a></div></div><!--kodda_submenu_posts_all_posts--></div><!--kodda_submenu--></div><!--kodda_menu--><div class="kodda_menu kodda_menu_4 kodda_menu_mobile kodda_menu_mobile_4 kodda_menu_dropdowns" data-menu_type="dropdowns" style="position:relative;">
-
-												<a href="" class="kodda_top_link " data-prevent="yes" >Categories<span class="ct_font_box"><span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span></span></a>
-												<span class="kodda_top_link_right_border"></span>
-											 <div class="kodda_submenu kodda_submenu_1" style="width:200px;" ><div class="kodda_submenu_dropdown_level_one" style="width:200px;" ><a href="http://ava-themes.com/WP/United/category/technology/" data-prevent="yes" >Technology </a>
+						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
+							<a href="http://ava-themes.com/WP/United/home-03/" data-prevent="yes" >Homepage 03 </a>
 																		  
-																		 </div><!--kodda_submenu_posts_categories--><div class="kodda_submenu_dropdown_level_one" style="width:200px;" ><a href="http://ava-themes.com/WP/United/category/entertainment/" data-prevent="yes" >Entertainment </a>
-																		  
-																		 </div><!--kodda_submenu_posts_categories--><div class="kodda_submenu_dropdown_level_one" style="width:200px;" ><a href="http://ava-themes.com/WP/United/category/fashion/" data-prevent="yes" >Fashion </a>
-																		  
-																		 </div><!--kodda_submenu_posts_categories--><div class="kodda_submenu_dropdown_level_one" style="width:200px;" ><a href="http://ava-themes.com/WP/United/category/food/" data-prevent="yes" >Food </a>
-																		  
-																		 </div><!--kodda_submenu_posts_categories--><div class="kodda_submenu_dropdown_level_one" style="width:200px;" ><a href="http://ava-themes.com/WP/United/category/lifestyle_cat/" data-prevent="yes" >Lifestyle </a>
-																		  
-																		 </div><!--kodda_submenu_posts_categories--><div class="kodda_submenu_dropdown_level_one" style="width:200px;" ><a href="http://ava-themes.com/WP/United/category/sports/" data-prevent="yes" >Sports </a>
-																		  
-																		 </div><!--kodda_submenu_posts_categories--></div><!--kodda_submenu--></div><!--kodda_menu--><div class="kodda_menu kodda_menu_5 kodda_menu_mobile kodda_menu_mobile_5 kodda_menu_links" data-menu_type="links" >
+						</div><!--kodda_submenu_posts_categories-->
 
-												<a href="http://ava-themes.com/WP/United/reviews_page/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Reviews<span class="ct_font_box"><span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span></span></a>
-												<span class="kodda_top_link_right_border"></span>
-											 </div><!--kodda_menu--><div class="kodda_menu kodda_menu_6 kodda_menu_mobile kodda_menu_mobile_6 kodda_menu_links" data-menu_type="links" >
+						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
+						 	<a href="http://ava-themes.com/WP/United/home-04/" data-prevent="yes" >Homepage 04 </a>
+																		  
+						</div><!--kodda_submenu_posts_categories-->
 
-												<a href="http://ava-themes.com/WP/United/shortcodes/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Shortcodes<span class="ct_font_box"><span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span></span></a>
-												<span class="kodda_top_link_right_border"></span>
-											 </div><!--kodda_menu--><div class="kodda_menu kodda_menu_7 kodda_menu_mobile kodda_menu_mobile_7 kodda_menu_links" data-menu_type="links" >
+						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
+							<a href="http://ava-themes.com/WP/United/home-05/" data-prevent="yes" >Homepage 05 </a>
+																		  
+						</div><!--kodda_submenu_posts_categories-->
+					</div><!--kodda_submenu-->
+				</div><!--kodda_menu-->
 
-												<a href="http://ava-themes.com/WP/United/shop/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Shop<span class="ct_font_box"><span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span></span></a>
-												<span class="kodda_top_link_right_border"></span>
-											 </div><!--kodda_menu--><div class="kodda_menu kodda_menu_8 kodda_menu_mobile kodda_menu_mobile_8 kodda_menu_links" data-menu_type="links" >
+				<div class="kodda_menu kodda_menu_2 kodda_menu_mobile kodda_menu_mobile_2 kodda_menu_posts" data-menu_type="posts" >
 
-												<a href="http://ava-themes.com/WP/United/contact/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Contact<span class="ct_font_box"><span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span></span></a>
-												<span class="kodda_top_link_right_border"></span>
-											 </div><!--kodda_menu-->		<div class="kodda_clearfix"></div>
+					<a href="#" class="kodda_top_link  " data-prevent="yes" >Formats
+						<span class="ct_font_box">
+							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
+						</span>
+					</a>
+					<span class="kodda_top_link_right_border"></span>
+					
+					<div class="kodda_submenu kodda_submenu_1" style="height:310px;" >
+						<div class="kodda_submenu_posts_categories" style="height:310px;" >
+							<a class="kodda_posts_cat kodda_posts_cat_1" href="http://ava-themes.com/WP/United/crimes-of-the-hot-5/" data-prevent="yes" data-encoded_cat="421b47ffd946ca083b65cd668c6b17e6" >
+								<span>Video</span>
+								<span class="ct_font_box">
+									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
+								</span>
+							</a>
 
-					  	</div><!--end kodda menu -->
-					</div><!--end kodda parent -->        
+							<a class="kodda_posts_cat kodda_posts_cat_2" href="http://ava-themes.com/WP/United/crimes-of-the-hot-8/" data-prevent="yes" data-encoded_cat="a5ca0b5894324f8bb54bb9fffad29d1e" >
+								<span>Audio</span>
+								<span class="ct_font_box">
+									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
+								</span>
+							</a>
+
+							<a class="kodda_posts_cat kodda_posts_cat_3" href="http://ava-themes.com/WP/United/recipe-orange-tart/" data-prevent="yes" data-encoded_cat="2767cc3ede7592a47bd6657e3799565c" >
+								<span>Gallery</span>
+								<span class="ct_font_box">
+									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
+								</span>
+							</a>
+
+							<a class="kodda_posts_cat kodda_posts_cat_4" href="http://ava-themes.com/WP/United/your-imagination-your-freedom/" data-prevent="yes" data-encoded_cat="7a674c327bfa07f7c1204fb38ca6ef3b" >
+								<span>Quote</span>
+								<span class="ct_font_box">
+									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
+								</span>
+							</a>
+							<a class="kodda_posts_cat kodda_posts_cat_5" href="http://ava-themes.com/WP/United/how-to-master-deviation-chic/" data-prevent="yes" data-encoded_cat="c00f0c4675b91fb8b918e4079a0b1bac" >
+								<span>Standard</span>
+								<span class="ct_font_box">
+									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
+								</span>
+							</a>
+
+							<a class="kodda_posts_cat kodda_posts_cat_6" href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/" data-prevent="yes" data-encoded_cat="78805a221a988e79ef3f42d7c5bfd418" >
+								<span>Image</span>
+								<span class="ct_font_box">
+									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
+								</span>
+							</a>
+						</div><!--kodda_submenu_posts_categories-->
+
+						<div class="kodda_submenu_posts_all_posts" style="height:310px;" >
+							<div class="kodda_posts_cat_container kodda_posts_cat_container_1 " data-parent_cat="421b47ffd946ca083b65cd668c6b17e6" >
+								<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+									<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+								</a>
+
+								<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+									<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+								</a>
+
+								<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+									<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+								</a>
+							</div>
+
+							<div class="kodda_posts_cat_container kodda_posts_cat_container_2 " data-parent_cat="a5ca0b5894324f8bb54bb9fffad29d1e" >
+								<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+									<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+								</a>
+								<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+									<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+								</a>
+								<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+									<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+								</a>
+							</div>
+
+							<div class="kodda_posts_cat_container kodda_posts_cat_container_3 " data-parent_cat="2767cc3ede7592a47bd6657e3799565c" >
+								<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+									<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+								</a>
+
+								<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+									<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+								</a>
+
+								<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+									<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+								</a>
+
+								</div>
+
+								<div class="kodda_posts_cat_container kodda_posts_cat_container_4 " data-parent_cat="7a674c327bfa07f7c1204fb38ca6ef3b" >
+									<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+										<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+									</a>
+
+									<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+										<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+									</a>
+
+									<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+										<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+									</a>
+								</div>
+
+								<div class="kodda_posts_cat_container kodda_posts_cat_container_5 " data-parent_cat="c00f0c4675b91fb8b918e4079a0b1bac" >
+
+									<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+										<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+									</a>
+
+									<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+										
+										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+										<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+									</a>
+
+									<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+										<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+									</a>
+
+								</div>
+
+								<div class="kodda_posts_cat_container kodda_posts_cat_container_6 " data-parent_cat="78805a221a988e79ef3f42d7c5bfd418" >
+
+									<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+									
+										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+										<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+									
+									</a>
+
+									<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+										<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+									</a>
+
+									<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+										
+										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+										
+										<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+									
+									</a>
+
+								</div>
+							</div><!--kodda_submenu_posts_all_posts-->
+						</div><!--kodda_submenu-->
+					</div><!--kodda_menu-->
+
+					<div class="kodda_menu kodda_menu_3 kodda_menu_mobile kodda_menu_mobile_3 kodda_menu_posts" data-menu_type="posts" >
+
+						<a href="#" class="kodda_top_link  " data-prevent="yes" >Features
+
+							<span class="ct_font_box">
+								<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
+							</span>
+						</a>
+						
+						<span class="kodda_top_link_right_border"></span>
+						<div class="kodda_submenu kodda_submenu_1" style="height:310px;" >
+
+						<div class="kodda_submenu_posts_categories" style="height:310px;" >
+							<a class="kodda_posts_cat kodda_posts_cat_1" href="http://ava-themes.com/WP/United/404-2/" data-prevent="yes" data-encoded_cat="4f4adcbf8c6f66dcfc8a3282ac2bf10a" >
+								<span>404</span>
+
+								<span class="ct_font_box">
+									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
+								</span>
+							</a>
+
+							<a class="kodda_posts_cat kodda_posts_cat_2" href="http://ava-themes.com/WP/United/about" data-prevent="yes" data-encoded_cat="6d325f3293b99bb8d9d4974f773d2ad8" >
+								<span>About Us</span>
+								<span class="ct_font_box">
+									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
+								</span>
+							</a>
+							<a class="kodda_posts_cat kodda_posts_cat_3" href="http://ava-themes.com/WP/United/author/admin/" data-prevent="yes" data-encoded_cat="f38c7637be452c841e1af11328a4c006" >
+								<span>Author Page</span>
+								<span class="ct_font_box">
+									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
+								</span>
+							</a>
+
+							<a class="kodda_posts_cat kodda_posts_cat_4" href="http://ava-themes.com/WP/United/?s=post" data-prevent="yes" data-encoded_cat="bd2870f95f5dca8143e47309720f6008" >
+								<span>Search Results</span>
+								<span class="ct_font_box">
+									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
+								</span>
+							</a>
+						</div><!--kodda_submenu_posts_categories-->
+
+						<div class="kodda_submenu_posts_all_posts" style="height:310px;" >
+							<div class="kodda_posts_cat_container kodda_posts_cat_container_1 " data-parent_cat="4f4adcbf8c6f66dcfc8a3282ac2bf10a" >
+								<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:351px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:351px;height:233px;" >
+									<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+								</a>
+								<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:351px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:351px;height:233px;" >
+									<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+								</a>
+
+								<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:351px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:351px;height:233px;" >
+									<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+								</a>
+							</div>
+
+							<div class="kodda_posts_cat_container kodda_posts_cat_container_2 " data-parent_cat="6d325f3293b99bb8d9d4974f773d2ad8" >
+								<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+									<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+								</a>
+
+								<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+									<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+								</a>
+
+								<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+									<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+								</a>
+							</div>
+
+							<div class="kodda_posts_cat_container kodda_posts_cat_container_3 " data-parent_cat="f38c7637be452c841e1af11328a4c006" >
+								<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+									<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+								</a>
+
+								<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+									<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+								</a>
+
+								<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+									<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+								</a>
+							</div>
+
+							<div class="kodda_posts_cat_container kodda_posts_cat_container_4 " data-parent_cat="bd2870f95f5dca8143e47309720f6008" >
+								<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
+									<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
+								</a>
+
+								<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
+									<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
+								</a>
+
+								<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
+									<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
+								</a>
+							</div>
+						</div><!--kodda_submenu_posts_all_posts-->
+					</div><!--kodda_submenu-->
+				</div><!--kodda_menu-->
+
+				<div class="kodda_menu kodda_menu_4 kodda_menu_mobile kodda_menu_mobile_4 kodda_menu_dropdowns" data-menu_type="dropdowns" style="position:relative;">
+
+					<a href="" class="kodda_top_link " data-prevent="yes" >Categories
+						<span class="ct_font_box">
+							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
+						</span>
+					</a>
+					<span class="kodda_top_link_right_border"></span>
+					<div class="kodda_submenu kodda_submenu_1" style="width:200px;" >
+						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
+							<a href="http://ava-themes.com/WP/United/category/technology/" data-prevent="yes" >Technology </a>
+																		  
+						</div><!--kodda_submenu_posts_categories-->
+
+						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
+							<a href="http://ava-themes.com/WP/United/category/entertainment/" data-prevent="yes" >Entertainment </a>
+																		  
+						</div><!--kodda_submenu_posts_categories-->
+
+						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
+
+							<a href="http://ava-themes.com/WP/United/category/fashion/" data-prevent="yes" >Fashion </a>
+																		  
+						</div><!--kodda_submenu_posts_categories-->
+
+						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
+							<a href="http://ava-themes.com/WP/United/category/food/" data-prevent="yes" >Food </a>
+																		  
+						</div><!--kodda_submenu_posts_categories-->
+
+						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
+							<a href="http://ava-themes.com/WP/United/category/lifestyle_cat/" data-prevent="yes" >Lifestyle </a>
+																		  
+						</div><!--kodda_submenu_posts_categories-->
+
+						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
+							<a href="http://ava-themes.com/WP/United/category/sports/" data-prevent="yes" >Sports </a>
+																		  
+						</div><!--kodda_submenu_posts_categories-->
+
+					</div><!--kodda_submenu-->
+				</div><!--kodda_menu-->
+
+				<div class="kodda_menu kodda_menu_5 kodda_menu_mobile kodda_menu_mobile_5 kodda_menu_links" data-menu_type="links" >
+
+					<a href="http://ava-themes.com/WP/United/reviews_page/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Reviews
+						<span class="ct_font_box">
+							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
+						</span>
+					</a>
+					<span class="kodda_top_link_right_border"></span>
+				</div><!--kodda_menu-->
+
+				<div class="kodda_menu kodda_menu_6 kodda_menu_mobile kodda_menu_mobile_6 kodda_menu_links" data-menu_type="links" >
+
+					<a href="http://ava-themes.com/WP/United/shortcodes/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Shortcodes
+						<span class="ct_font_box">
+							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
+						</span>
+					</a>
+					<span class="kodda_top_link_right_border"></span>
+				</div><!--kodda_menu-->
+
+				<div class="kodda_menu kodda_menu_7 kodda_menu_mobile kodda_menu_mobile_7 kodda_menu_links" data-menu_type="links" >
+
+					<a href="http://ava-themes.com/WP/United/shop/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Shop
+						<span class="ct_font_box">
+							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
+						</span>
+					</a>
+					
+					<span class="kodda_top_link_right_border"></span>
+				
+				</div><!--kodda_menu-->
+
+				<div class="kodda_menu kodda_menu_8 kodda_menu_mobile kodda_menu_mobile_8 kodda_menu_links" data-menu_type="links" >
+
+					<a href="http://ava-themes.com/WP/United/contact/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Contact
+						<span class="ct_font_box">
+							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
+						</span>
+					</a>
+					<span class="kodda_top_link_right_border"></span>
+				</div><!--kodda_menu-->		
+
+				<div class="kodda_clearfix"></div>
+
+				</div><!--end kodda menu -->
+			</div><!--end kodda parent -->        
 
         </div>
 
         <div class="sideLinks">
-                                  <a href="#" data-reveal-id="weather-modal" data-reveal>
+            
+            <a href="#" data-reveal-id="weather-modal" data-reveal>
               
 			<!-- WP Cloudy : WordPress weather plugin - http://wpcloudy.com/ -->
 			<div id="wpc-weather" class="small " style="; color:;; font-family:">
 				<div class="now">
 					<div class="location_name">California</div>		
 					<div class="time_symbol climacon" style="fill:">
-		<svg
-        version="1.1"
-        id="sun"
-        class="climacon climacon_sun"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        x="0px"
-        y="0px"
-        viewBox="15 15 70 70"
-        enable-background="new 15 15 70 70"
-        xml:space="preserve">
-        <clipPath id="sunFillClip">
-            <path
-            d="M0,0v100h100V0H0z M50.001,57.999c-4.417,0-8-3.582-8-7.999c0-4.418,3.582-7.999,8-7.999s7.998,3.581,7.998,7.999C57.999,54.417,54.418,57.999,50.001,57.999z"
-            />
-        </clipPath>
-        <g class="climacon_iconWrap climacon_iconWrap-sun">
-            <g class="climacon_componentWrap climacon_componentWrap-sun">
-                <g class="climacon_componentWrap climacon_componentWrap-sunSpoke">
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-east"
-                    d="M72.03,51.999h-3.998c-1.105,0-2-0.896-2-1.999s0.895-2,2-2h3.998c1.104,0,2,0.896,2,2S73.136,51.999,72.03,51.999z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-northEast"
-                    d="M64.175,38.688c-0.781,0.781-2.049,0.781-2.828,0c-0.781-0.781-0.781-2.047,0-2.828l2.828-2.828c0.779-0.781,2.047-0.781,2.828,0c0.779,0.781,0.779,2.047,0,2.828L64.175,38.688z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-north"
-                    d="M50.034,34.002c-1.105,0-2-0.896-2-2v-3.999c0-1.104,0.895-2,2-2c1.104,0,2,0.896,2,2v3.999C52.034,33.106,51.136,34.002,50.034,34.002z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-northWest"
-                    d="M35.893,38.688l-2.827-2.828c-0.781-0.781-0.781-2.047,0-2.828c0.78-0.781,2.047-0.781,2.827,0l2.827,2.828c0.781,0.781,0.781,2.047,0,2.828C37.94,39.469,36.674,39.469,35.893,38.688z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-west"
-                    d="M34.034,50c0,1.104-0.896,1.999-2,1.999h-4c-1.104,0-1.998-0.896-1.998-1.999s0.896-2,1.998-2h4C33.14,48,34.034,48.896,34.034,50z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-southWest"
-                    d="M35.893,61.312c0.781-0.78,2.048-0.78,2.827,0c0.781,0.78,0.781,2.047,0,2.828l-2.827,2.827c-0.78,0.781-2.047,0.781-2.827,0c-0.781-0.78-0.781-2.047,0-2.827L35.893,61.312z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-south"
-                    d="M50.034,65.998c1.104,0,2,0.895,2,1.999v4c0,1.104-0.896,2-2,2c-1.105,0-2-0.896-2-2v-4C48.034,66.893,48.929,65.998,50.034,65.998z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-southEast"
-                    d="M64.175,61.312l2.828,2.828c0.779,0.78,0.779,2.047,0,2.827c-0.781,0.781-2.049,0.781-2.828,0l-2.828-2.827c-0.781-0.781-0.781-2.048,0-2.828C62.126,60.531,63.392,60.531,64.175,61.312z"
-                    />
-                </g>
-                <g class="climacon_componentWrap climacon_componentWrap_sunBody" clip-path="url(#sunFillClip)">
-                    <circle
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunBody"
-                    cx="50.034"
-                    cy="50"
-                    r="11.999"
-                    />
-                </g>
-            </g>
-        </g>
-    </svg>
-	<!-- sun -->
-	</div>
-					<div class="time_temperature">12&deg;</div>
-				</div>
-			
-					<style>
-						#wpc-weather.small .now .time_symbol svg {
-width: 35px;
-height: 35px;
-margin-bottom: 0;
-}
+					<svg
+				        version="1.1"
+				        id="sun"
+				        class="climacon climacon_sun"
+				        xmlns="http://www.w3.org/2000/svg"
+				        xmlns:xlink="http://www.w3.org/1999/xlink"
+				        x="0px"
+				        y="0px"
+				        viewBox="15 15 70 70"
+				        enable-background="new 15 15 70 70"
+				        xml:space="preserve">
 
-					</style>
-				</div>            </a>
+				        <clipPath id="sunFillClip">
+				            <path
+				            d="M0,0v100h100V0H0z M50.001,57.999c-4.417,0-8-3.582-8-7.999c0-4.418,3.582-7.999,8-7.999s7.998,3.581,7.998,7.999C57.999,54.417,54.418,57.999,50.001,57.999z"
+				            />
+				        </clipPath>
+				        <g class="climacon_iconWrap climacon_iconWrap-sun">
+				            <g class="climacon_componentWrap climacon_componentWrap-sun">
+				                <g class="climacon_componentWrap climacon_componentWrap-sunSpoke">
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-east"
+				                    d="M72.03,51.999h-3.998c-1.105,0-2-0.896-2-1.999s0.895-2,2-2h3.998c1.104,0,2,0.896,2,2S73.136,51.999,72.03,51.999z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-northEast"
+				                    d="M64.175,38.688c-0.781,0.781-2.049,0.781-2.828,0c-0.781-0.781-0.781-2.047,0-2.828l2.828-2.828c0.779-0.781,2.047-0.781,2.828,0c0.779,0.781,0.779,2.047,0,2.828L64.175,38.688z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-north"
+				                    d="M50.034,34.002c-1.105,0-2-0.896-2-2v-3.999c0-1.104,0.895-2,2-2c1.104,0,2,0.896,2,2v3.999C52.034,33.106,51.136,34.002,50.034,34.002z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-northWest"
+				                    d="M35.893,38.688l-2.827-2.828c-0.781-0.781-0.781-2.047,0-2.828c0.78-0.781,2.047-0.781,2.827,0l2.827,2.828c0.781,0.781,0.781,2.047,0,2.828C37.94,39.469,36.674,39.469,35.893,38.688z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-west"
+				                    d="M34.034,50c0,1.104-0.896,1.999-2,1.999h-4c-1.104,0-1.998-0.896-1.998-1.999s0.896-2,1.998-2h4C33.14,48,34.034,48.896,34.034,50z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-southWest"
+				                    d="M35.893,61.312c0.781-0.78,2.048-0.78,2.827,0c0.781,0.78,0.781,2.047,0,2.828l-2.827,2.827c-0.78,0.781-2.047,0.781-2.827,0c-0.781-0.78-0.781-2.047,0-2.827L35.893,61.312z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-south"
+				                    d="M50.034,65.998c1.104,0,2,0.895,2,1.999v4c0,1.104-0.896,2-2,2c-1.105,0-2-0.896-2-2v-4C48.034,66.893,48.929,65.998,50.034,65.998z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-southEast"
+				                    d="M64.175,61.312l2.828,2.828c0.779,0.78,0.779,2.047,0,2.827c-0.781,0.781-2.049,0.781-2.828,0l-2.828-2.827c-0.781-0.781-0.781-2.048,0-2.828C62.126,60.531,63.392,60.531,64.175,61.312z"
+				                    />
+				                </g>
+				                <g class="climacon_componentWrap climacon_componentWrap_sunBody" clip-path="url(#sunFillClip)">
+				                    <circle
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunBody"
+				                    cx="50.034"
+				                    cy="50"
+				                    r="11.999"
+				                    />
+				                </g>
+				            </g>
+				        </g>
+			    	</svg>
+					<!-- sun -->
+				</div>
+				
+				<div class="time_temperature">12&deg;</div>
+			</div>
+			
+				<style>
+				#wpc-weather.small .now .time_symbol svg {
+				width: 35px;
+				height: 35px;
+				margin-bottom: 0;
+				}
+
+				</style>
+			</div>            
+		</a>
                        
 
 
-                                  <div id="weather-modal" class="reveal-modal small contact-reveal weatherModal" data-reveal>
+        <div id="weather-modal" class="reveal-modal small contact-reveal weatherModal" data-reveal>
               
 			<!-- WP Cloudy : WordPress weather plugin - http://wpcloudy.com/ -->
 			<div id="wpc-weather" class="small " style="; color:;; font-family:">
 				<div class="now">
 					<div class="location_name">California</div>		
 					<div class="time_symbol climacon" style="fill:">
-		<svg
-        version="1.1"
-        id="sun"
-        class="climacon climacon_sun"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        x="0px"
-        y="0px"
-        viewBox="15 15 70 70"
-        enable-background="new 15 15 70 70"
-        xml:space="preserve">
-        <clipPath id="sunFillClip">
-            <path
-            d="M0,0v100h100V0H0z M50.001,57.999c-4.417,0-8-3.582-8-7.999c0-4.418,3.582-7.999,8-7.999s7.998,3.581,7.998,7.999C57.999,54.417,54.418,57.999,50.001,57.999z"
-            />
-        </clipPath>
-        <g class="climacon_iconWrap climacon_iconWrap-sun">
-            <g class="climacon_componentWrap climacon_componentWrap-sun">
-                <g class="climacon_componentWrap climacon_componentWrap-sunSpoke">
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-east"
-                    d="M72.03,51.999h-3.998c-1.105,0-2-0.896-2-1.999s0.895-2,2-2h3.998c1.104,0,2,0.896,2,2S73.136,51.999,72.03,51.999z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-northEast"
-                    d="M64.175,38.688c-0.781,0.781-2.049,0.781-2.828,0c-0.781-0.781-0.781-2.047,0-2.828l2.828-2.828c0.779-0.781,2.047-0.781,2.828,0c0.779,0.781,0.779,2.047,0,2.828L64.175,38.688z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-north"
-                    d="M50.034,34.002c-1.105,0-2-0.896-2-2v-3.999c0-1.104,0.895-2,2-2c1.104,0,2,0.896,2,2v3.999C52.034,33.106,51.136,34.002,50.034,34.002z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-northWest"
-                    d="M35.893,38.688l-2.827-2.828c-0.781-0.781-0.781-2.047,0-2.828c0.78-0.781,2.047-0.781,2.827,0l2.827,2.828c0.781,0.781,0.781,2.047,0,2.828C37.94,39.469,36.674,39.469,35.893,38.688z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-west"
-                    d="M34.034,50c0,1.104-0.896,1.999-2,1.999h-4c-1.104,0-1.998-0.896-1.998-1.999s0.896-2,1.998-2h4C33.14,48,34.034,48.896,34.034,50z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-southWest"
-                    d="M35.893,61.312c0.781-0.78,2.048-0.78,2.827,0c0.781,0.78,0.781,2.047,0,2.828l-2.827,2.827c-0.78,0.781-2.047,0.781-2.827,0c-0.781-0.78-0.781-2.047,0-2.827L35.893,61.312z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-south"
-                    d="M50.034,65.998c1.104,0,2,0.895,2,1.999v4c0,1.104-0.896,2-2,2c-1.105,0-2-0.896-2-2v-4C48.034,66.893,48.929,65.998,50.034,65.998z"
-                    />
-                    <path
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-southEast"
-                    d="M64.175,61.312l2.828,2.828c0.779,0.78,0.779,2.047,0,2.827c-0.781,0.781-2.049,0.781-2.828,0l-2.828-2.827c-0.781-0.781-0.781-2.048,0-2.828C62.126,60.531,63.392,60.531,64.175,61.312z"
-                    />
-                </g>
-                <g class="climacon_componentWrap climacon_componentWrap_sunBody" clip-path="url(#sunFillClip)">
-                    <circle
-                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunBody"
-                    cx="50.034"
-                    cy="50"
-                    r="11.999"
-                    />
-                </g>
-            </g>
-        </g>
-    </svg>
-	<!-- sun -->
-	</div>
-					<div class="time_temperature">12&deg;</div>
+						<svg
+				        version="1.1"
+				        id="sun"
+				        class="climacon climacon_sun"
+				        xmlns="http://www.w3.org/2000/svg"
+				        xmlns:xlink="http://www.w3.org/1999/xlink"
+				        x="0px"
+				        y="0px"
+				        viewBox="15 15 70 70"
+				        enable-background="new 15 15 70 70"
+				        xml:space="preserve">
+				        <clipPath id="sunFillClip">
+				            <path
+				            d="M0,0v100h100V0H0z M50.001,57.999c-4.417,0-8-3.582-8-7.999c0-4.418,3.582-7.999,8-7.999s7.998,3.581,7.998,7.999C57.999,54.417,54.418,57.999,50.001,57.999z"
+				            />
+				        </clipPath>
+				        <g class="climacon_iconWrap climacon_iconWrap-sun">
+				            <g class="climacon_componentWrap climacon_componentWrap-sun">
+				                <g class="climacon_componentWrap climacon_componentWrap-sunSpoke">
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-east"
+				                    d="M72.03,51.999h-3.998c-1.105,0-2-0.896-2-1.999s0.895-2,2-2h3.998c1.104,0,2,0.896,2,2S73.136,51.999,72.03,51.999z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-northEast"
+				                    d="M64.175,38.688c-0.781,0.781-2.049,0.781-2.828,0c-0.781-0.781-0.781-2.047,0-2.828l2.828-2.828c0.779-0.781,2.047-0.781,2.828,0c0.779,0.781,0.779,2.047,0,2.828L64.175,38.688z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-north"
+				                    d="M50.034,34.002c-1.105,0-2-0.896-2-2v-3.999c0-1.104,0.895-2,2-2c1.104,0,2,0.896,2,2v3.999C52.034,33.106,51.136,34.002,50.034,34.002z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-northWest"
+				                    d="M35.893,38.688l-2.827-2.828c-0.781-0.781-0.781-2.047,0-2.828c0.78-0.781,2.047-0.781,2.827,0l2.827,2.828c0.781,0.781,0.781,2.047,0,2.828C37.94,39.469,36.674,39.469,35.893,38.688z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-west"
+				                    d="M34.034,50c0,1.104-0.896,1.999-2,1.999h-4c-1.104,0-1.998-0.896-1.998-1.999s0.896-2,1.998-2h4C33.14,48,34.034,48.896,34.034,50z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-southWest"
+				                    d="M35.893,61.312c0.781-0.78,2.048-0.78,2.827,0c0.781,0.78,0.781,2.047,0,2.828l-2.827,2.827c-0.78,0.781-2.047,0.781-2.827,0c-0.781-0.78-0.781-2.047,0-2.827L35.893,61.312z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-south"
+				                    d="M50.034,65.998c1.104,0,2,0.895,2,1.999v4c0,1.104-0.896,2-2,2c-1.105,0-2-0.896-2-2v-4C48.034,66.893,48.929,65.998,50.034,65.998z"
+				                    />
+				                    <path
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunSpoke climacon_component-stroke_sunSpoke-southEast"
+				                    d="M64.175,61.312l2.828,2.828c0.779,0.78,0.779,2.047,0,2.827c-0.781,0.781-2.049,0.781-2.828,0l-2.828-2.827c-0.781-0.781-0.781-2.048,0-2.828C62.126,60.531,63.392,60.531,64.175,61.312z"
+				                    />
+				                </g>
+				                <g class="climacon_componentWrap climacon_componentWrap_sunBody" clip-path="url(#sunFillClip)">
+				                    <circle
+				                    class="climacon_component climacon_component-stroke climacon_component-stroke_sunBody"
+				                    cx="50.034"
+				                    cy="50"
+				                    r="11.999"
+				                    />
+				                </g>
+				            </g>
+				        </g>
+				    </svg>
+					<!-- sun -->
+				</div>
+				<div class="time_temperature">12&deg;</div>
 				</div>
 			
 				<div class="short_condition">sky is clear</div>
@@ -678,12 +1230,10 @@ margin-bottom: 0;
 						<div class="temperature">31</div>
 					</div>
 				</div>	
-			</div>              <a class="close-reveal-modal">&#215;</a>
+			</div>      
+			     <a class="close-reveal-modal">&#215;</a>
             </div>
-            
 
-
-                
                           <a href="http://ava-themes.com/WP/United/shop" class="cart">Shop</a>
              
                   </div>        
@@ -707,9 +1257,6 @@ margin-bottom: 0;
 
 
   }  
-
-
-
 
 </style>
 

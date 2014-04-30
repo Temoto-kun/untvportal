@@ -35,7 +35,11 @@ Author URI: http://untvweb.com
 @import url('css/addtoany.min.css');
 @import url('css/wp-multiratings.css');
 @import url('css/twocolumns.css');
+/*color : 
+	blue => rgb(38 71 178) #2647b2, 
+	yellow => rgb(254, 206, 0) #fece00
 
+*/
 .related_post_title {
 }
 ul.related_post {
