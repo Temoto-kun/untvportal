@@ -103,7 +103,8 @@ float: left !important;
 
 
 .hide_arrows .bx-wrapper .bx-controls-direction a {
-top: 157px;
+/*top: 157px;*/
+top:30px;
 }
 
 @media only screen and (max-width: 1390px) {
@@ -758,7 +759,7 @@ position: relative;
 font-size: 14px !important;
 font-style: normal;
 padding: 0px 0px 0px 0px;
-color: #e72a30 !important;
+color: #2647b2 !important;
 position: absolute;
 bottom: 0;
 padding: 10px;

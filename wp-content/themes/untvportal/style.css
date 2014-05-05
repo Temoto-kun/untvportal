@@ -40,6 +40,12 @@ Author URI: http://untvweb.com
 	yellow => rgb(254, 206, 0) #fece00
 
 */
+
+iframe{
+	margin-bottom: -5px;
+	border-color: #363636;
+}
+
 .related_post_title {
 }
 ul.related_post {
@@ -169,7 +175,7 @@ a,
 .addLeft .additionalImages,
 .singleWidgets .widget-title
 
-{border-color:#e72a30}
+{}
 
 
 
@@ -180,7 +186,9 @@ a,
 .popularDiv h3,
 .widget_search label span,
 .singleWidgets .widget-title
-{border-top-color:#e72a30}
+{
+
+}
 
 
 .newsScollers .addStories,
@@ -533,6 +541,6 @@ ul.newsticker, .ticker ul li{
 .post_x2 .readMore,
 .newsScollers .addStories a,
 .middleColumn .large-12 .large-6 .readMore  { 
-	background: url(http://ava-themes.com/WP/United/wp-content/uploads/2014/04/newReadMore.jpg) no-repeat left center;
+	background: url(img/newReadMore.jpg) no-repeat left center;
 }
 
