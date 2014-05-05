@@ -118,7 +118,7 @@
 				                </div>
 				                <div class="large-12 columns textHoldBottom">
 				                  <div class="large-8 medium-8 columns">
-				                    <12>The Old Path</h1>
+				                    <h1>The Old Path</h1>
 				                    <p>33 Years - Building a Prayerful Nation through Broadcast Evangelization.</p>
 				                  </div>
 				                  <div class="large-12 medium-12 columns moreBottom">
@@ -807,16 +807,384 @@
     <!-- News Ticker -->
     <div class="newsTicker">
     		    	
-	        <div class="row">
-		        <div class="side">
-		          Breaking News
-		        </div>      	
-		        <ul id="tickerHorizontal">
-		        
-				  	
-				</ul>    
-	        </div>
-  		    </div>
+        <div class="row">
+	        <div class="side">
+	          Breaking News
+	        </div>      	
+	        <ul id="tickerHorizontal">
+	        
+			  	
+			</ul>    
+        </div>
+  	</div>
+
+  	<div class="section firstSection">
+  	      <div class="row whiteRow">
+  			<div class="large-8 medium-12 columns white">
+  	        	<div class="theBlue">
+  		          <div class="blue_section section white sections hide-for-small">
+
+  		            <div class="large-5 medium-5 columns post_list">
+  			            <h2>
+  			              			              		Don't Miss 		              	  
+  			            </h2>
+
+
+
+  			            <ul>
+  			              			              			              	
+  							    <li>
+  							      <div class="image">
+  							        <a href="http://ava-themes.com/WP/United/bafta-games-awards/">
+  							          <img width="97" height="75" src="http://img.youtube.com/vi/6ELxN4XXwnY/2.jpg" class="attachment-tiny_thumb wp-post-image" alt="4554431099_9002b6111b_b">						        </a>
+  							      </div>
+  							      <div class="title">
+  							        <a href="http://ava-themes.com/WP/United/bafta-games-awards/">Sinewikain - Video Festival on Philippine TV</a>
+  							      </div>
+  							      <div class="info">
+
+  							        <img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/time.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/time@2x.png" alt="" height="11" width="11">April 3rd						      </div>
+  							    </li>
+
+  							
+  							    <li>
+  							      <div class="image">
+  							        <a href="http://ava-themes.com/WP/United/why-google-maps-gets-africa-wrong/">
+  							          <img width="97" height="75" src="http://img.youtube.com/vi/R-drY1JrRXw/2.jpg" class="attachment-tiny_thumb wp-post-image" alt="36769380_acc59239cb_b">						        </a>
+  							      </div>
+  							      <div class="title">
+  							        <a href="http://ava-themes.com/WP/United/why-google-maps-gets-africa-wrong/">Isang Araw Lang Advocacy invitation for legal practitioners</a>
+  							      </div>
+  							      <div class="info">
+
+  							        <img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/time.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/time@2x.png" alt="" height="11" width="11">April 2nd						      </div>
+  							    </li>
+
+  							
+  							    <li>
+  							      <div class="image">
+  							        <a href="http://ava-themes.com/WP/United/3d-food-printer-offers-the-prospect-of-hamburgers-printed-to-go/">
+  							          <img width="97" height="75" src="http://img.youtube.com/vi/9QcNLYQoQRU/2.jpg" class="attachment-tiny_thumb wp-post-image" alt="burger">						        </a>
+  							      </div>
+  							      <div class="title">
+  							        <a href="http://ava-themes.com/WP/United/3d-food-printer-offers-the-prospect-of-hamburgers-printed-to-go/">Mga tampok na laro ngayong Linggo, March 16 sa #UNTVCup2</a>
+  							      </div>
+  							      <div class="info">
+
+  							        <img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/time.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/time@2x.png" alt="" height="11" width="11">April 2nd						      </div>
+  							    </li>
+
+  													                          
+  			            </ul>
+
+  		              		              		<a href="#" class="openAll">open all posts</a>
+  		              	 	              
+  		            </div>
+
+
+  		            <div class="large-7 medium-7 columns post_x2 hide_arrows">
+  		              <h2>
+  		              		              		Advocacy</h2>
+  		              	                	
+  		              
+
+  		              			              <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 454px;"><ul class="bx_news" style="width: 515%; position: relative; left: -420px;"><li style="float: left; list-style: none; position: relative; width: 420px;" class="bx-clone">
+  				                	<div class="slideNewsItem">
+  				                	  <a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/">
+  					                  <img width="427" height="220" src="http://www.untvweb.com/wp-content/files_mf/cache/th_e23175e9d2fb24adb0e1d635dca1b01d_1395733624isangarawlangthumbnail.png" class="attachment-news_block wp-post-image" alt="texting">				                
+  					                  </a>               		
+  				                	</div>
+
+  						            <div class="title">
+  						              <a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/">Isang Araw Lang Advocacy</a>
+  						            </div>
+  						            <div class="info">
+  						              <div class="category"><a href="http://ava-themes.com/WP/United/category/technology/" title="View all posts in Technology" rel="category tag">Technology</a></div>
+  						              <div class="comments"><img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment@2x.png" alt=""><a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/#comments ">one comment</a></div>
+  						            </div>
+  						            <p>Let’s face it, not all Filipinos need helping. There are Filipinos who can help. ”	– Kuya Daniel Razon</p>
+  						            <a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/" class="readMore">Read More</a>
+  				                </li>
+  			              			              	
+  				                <li style="float: left; list-style: none; position: relative; width: 420px;">
+  				                	<div class="slideNewsItem">
+  				                	  <a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/">
+  					                  <img width="427" height="220" src="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/10175766475_63880ff440_o-427x220.jpg" class="attachment-news_block wp-post-image" alt="OLYMPUS DIGITAL CAMERA">				                  <div class="date">23<span>Apr</span><span class="line"></span></div> 
+  					                  </a>               		
+  				                	</div>
+
+  						            <div class="title">
+  						              <a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/">WhatsApp now has 500m active users sharing 700m photos a day</a>
+  						            </div>
+  						            <div class="info">
+  						              <div class="category"><a href="http://ava-themes.com/WP/United/category/technology/" title="View all posts in Technology" rel="category tag">Technology</a></div>
+  						              <div class="comments"><img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment@2x.png" alt=""><a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/#comments ">no comments</a></div>
+  						            </div>
+  						            <p>Messaging app WhatsApp now has 500m active users, having added 70m since announcing in February that it was being&nbsp;bought by Facebook for $19bn. “In...</p>
+  						            <a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/" class="readMore">Read More</a>
+  				                </li>
+
+  							
+  				                <li style="float: left; list-style: none; position: relative; width: 420px;">
+  				                	<div class="slideNewsItem">
+  				                	  <a href="http://ava-themes.com/WP/United/converting-to-led-lights/">
+  					                  <img width="427" height="220" src="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/10347464594_cbb806f238_b1-427x220.jpg" class="attachment-news_block wp-post-image" alt="10347464594_cbb806f238_b">				                  <div class="date">07<span>Apr</span><span class="line"></span></div> 
+  					                  </a>               		
+  				                	</div>
+
+  						            <div class="title">
+  						              <a href="http://ava-themes.com/WP/United/converting-to-led-lights/">Converting to LED lights: everything you need to know</a>
+  						            </div>
+  						            <div class="info">
+  						              <div class="category"><a href="http://ava-themes.com/WP/United/category/lifestyle_cat/" title="View all posts in Lifestyle" rel="category tag">Lifestyle</a>, <a href="http://ava-themes.com/WP/United/category/technology/" title="View all posts in Technology" rel="category tag">Technology</a></div>
+  						              <div class="comments"><img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment@2x.png" alt=""><a href="http://ava-themes.com/WP/United/converting-to-led-lights/#comments ">no comments</a></div>
+  						            </div>
+  						            <p>What lights do you use at home? I’m 100% LED now – even my fridge light is LED. You don’t need to go that...</p>
+  						            <a href="http://ava-themes.com/WP/United/converting-to-led-lights/" class="readMore">Read More</a>
+  				                </li>
+
+  							
+  				                <li style="float: left; list-style: none; position: relative; width: 420px;">
+  				                	<div class="slideNewsItem">
+  				                	  <a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/">
+  					                  <img width="427" height="220" src="http://www.untvweb.com/wp-content/files_mf/cache/th_e23175e9d2fb24adb0e1d635dca1b01d_1395733624isangarawlangthumbnail.png" class="attachment-news_block wp-post-image" alt="texting">				                  <div class="date">03<span>Apr</span><span class="line"></span></div> 
+  					                  </a>               		
+  				                	</div>
+
+  						            <div class="title">
+  						              <a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/">Isang Araw Lang Advocacy</a>
+  						            </div>
+  						            <div class="info">
+  						              <div class="category"><a href="http://ava-themes.com/WP/United/category/technology/" title="View all posts in Technology" rel="category tag">Technology</a></div>
+  						              <div class="comments"><img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment@2x.png" alt=""><a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/#comments ">one comment</a></div>
+  						            </div>
+  						            <p>Texting is bad for your health. Do it while walking and you can bump into walls or step out into traffic. Studies have linked...</p>
+  						            <a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/" class="readMore">Read More</a>
+  				                </li>
+
+  							 
+  			                          
+  		                 <li style="float: left; list-style: none; position: relative; width: 420px;" class="bx-clone">
+  				                	<div class="slideNewsItem">
+  				                	  <a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/">
+  					                  <img width="427" height="220" src="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/10175766475_63880ff440_o-427x220.jpg" class="attachment-news_block wp-post-image" alt="OLYMPUS DIGITAL CAMERA">				                  <div class="date">23<span>Apr</span><span class="line"></span></div> 
+  					                  </a>               		
+  				                	</div>
+
+  						            <div class="title">
+  						              <a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/">WhatsApp now has 500m active users sharing 700m photos a day</a>
+  						            </div>
+  						            <div class="info">
+  						              <div class="category"><a href="http://ava-themes.com/WP/United/category/technology/" title="View all posts in Technology" rel="category tag">Technology</a></div>
+  						              <div class="comments"><img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment@2x.png" alt=""><a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/#comments ">no comments</a></div>
+  						            </div>
+  						            <p>Messaging app WhatsApp now has 500m active users, having added 70m since announcing in February that it was being&nbsp;bought by Facebook for $19bn. “In...</p>
+  						            <a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/" class="readMore">Read More</a>
+  				                </li></ul></div><div class="bx-controls bx-has-pager bx-has-controls-direction"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a></div><div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div></div><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
+  		              	 
+
+  		           
+  		            </div>
+  		          </div> 
+
+
+  		          <div class="blue_section section white sections show-for-small">
+  		            <div class="large-12 columns test">
+  		              <div class="off-canvas-wrap">
+  		                <div class="inner-wrap">
+
+  		                  <a class="left-off-canvas-toggle show_hidden_menu" href="#"><i class="fa fa-bars"></i></a> 
+
+  		                  <!-- Off Canvas Menu -->
+  		                  <aside class="left-off-canvas-menu">
+  		                    <div class="large-5 medium-5 columns post_list">
+  				              <h2>Don't Miss</h2>
+
+  				              					              <ul>
+  					              					              	
+  									    <li>
+  									      <div class="image">
+  									        <a href="http://ava-themes.com/WP/United/bafta-games-awards/">
+  									          <img width="97" height="75" src="http://img.youtube.com/vi/6ELxN4XXwnY/2.jpg" class="attachment-tiny_thumb wp-post-image" alt="4554431099_9002b6111b_b">								        </a>
+  									      </div>
+  									      <div class="title">
+  									        <a href="http://ava-themes.com/WP/United/bafta-games-awards/">Sinewikain - Video Festival on Philippine TV</a>
+  									      </div>
+  									      <div class="info">
+  									        <img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/time.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/time@2x.png" alt="" height="11" width="11">April 3rd								      </div>
+  									    </li>
+
+  									
+  									    <li>
+  									      <div class="image">
+  									        <a href="http://ava-themes.com/WP/United/why-google-maps-gets-africa-wrong/">
+  									          <img width="97" height="75" src="http://img.youtube.com/vi/R-drY1JrRXw/2.jpg" class="attachment-tiny_thumb wp-post-image" alt="36769380_acc59239cb_b">								        </a>
+  									      </div>
+  									      <div class="title">
+  									        <a href="http://ava-themes.com/WP/United/why-google-maps-gets-africa-wrong/">Isang Araw Lang Advocacy invitation for legal practitioners</a>
+  									      </div>
+  									      <div class="info">
+  									        <img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/time.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/time@2x.png" alt="" height="11" width="11">April 2nd								      </div>
+  									    </li>
+
+  									
+  									    <li>
+  									      <div class="image">
+  									        <a href="http://ava-themes.com/WP/United/3d-food-printer-offers-the-prospect-of-hamburgers-printed-to-go/">
+  									          <img width="97" height="75" src="http://img.youtube.com/vi/9QcNLYQoQRU/2.jpg" class="attachment-tiny_thumb wp-post-image" alt="burger">								        </a>
+  									      </div>
+  									      <div class="title">
+  									        <a href="http://ava-themes.com/WP/United/3d-food-printer-offers-the-prospect-of-hamburgers-printed-to-go/">Mga tampok na laro ngayong Linggo, March 16 sa #UNTVCup2</a>
+  									      </div>
+  									      <div class="info">
+  									        <img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/time.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/time@2x.png" alt="" height="11" width="11">April 2nd								      </div>
+  									    </li>
+
+  									                         
+  					              </ul>
+  				              	
+  				              				              		<a href="index.php?cat=3" class="openAll">open all posts</a>
+  				              	 	              			
+  		                    </div>
+  		                  </aside>
+
+  		                  <!-- main content goes here -->
+  		                  <div class="large-7 medium-7 columns post_x2 hide_arrows">
+  		                    <h2>
+  				              				              		Advocacy			              	                     	
+  		                    </h2>
+
+  			              			                    <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 0px;"><ul class="bx_news" style="width: 515%; position: relative; left: 0px;"><li style="float: left; list-style: none; position: relative; width: 100px;" class="bx-clone">
+  					                	<div class="slideNewsItem">
+  					                	  <a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/">
+  						                  <img width="427" height="220" src="http://www.untvweb.com/wp-content/files_mf/cache/th_e23175e9d2fb24adb0e1d635dca1b01d_1395733624isangarawlangthumbnail.png" class="attachment-news_block wp-post-image" alt="texting">					                  <div class="date">03<span>Apr</span><span class="line"></span></div> 
+  						                  </a>               		
+  					                	</div>
+
+  							            <div class="title">
+  							              <a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/">Isang Araw Lang Advocacy</a>
+  							            </div>
+  							            <div class="info">
+  							              <div class="category"><a href="http://ava-themes.com/WP/United/category/technology/" title="View all posts in Technology" rel="category tag">Technology</a></div>
+  							              <div class="comments"><img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment@2x.png" alt=""><a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/#comments ">one comment</a></div>
+  							            </div>
+  							            <p>Texting is bad for your health. Do it while walking and you can bump into walls or step out into traffic. Studies have linked...</p>
+  							            <a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/" class="readMore">Read More</a>
+  					                </li>
+  					              					              	                    	
+  					                <li style="float: left; list-style: none; position: relative; width: 100px;">
+  					                	<div class="slideNewsItem">
+  					                	  <a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/">
+  						                  <img width="427" height="220" src="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/10175766475_63880ff440_o-427x220.jpg" class="attachment-news_block wp-post-image" alt="OLYMPUS DIGITAL CAMERA">					                  <div class="date">23<span>Apr</span><span class="line"></span></div> 
+  						                  </a>               		
+  					                	</div>
+
+  							            <div class="title">
+  							              <a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/">WhatsApp now has 500m active users sharing 700m photos a day</a>
+  							            </div>
+  							            <div class="info">
+  							              <div class="category"><a href="http://ava-themes.com/WP/United/category/technology/" title="View all posts in Technology" rel="category tag">Technology</a></div>
+  							              <div class="comments"><img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment@2x.png" alt=""><a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/#comments ">no comments</a></div>
+  							            </div>
+  							            <p>Messaging app WhatsApp now has 500m active users, having added 70m since announcing in February that it was being&nbsp;bought by Facebook for $19bn. “In...</p>
+  							            <a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/" class="readMore">Read More</a>
+  					                </li> 
+  									                    	
+  					                <li style="float: left; list-style: none; position: relative; width: 100px;">
+  					                	<div class="slideNewsItem">
+  					                	  <a href="http://ava-themes.com/WP/United/converting-to-led-lights/">
+  						                  <img width="427" height="220" src="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/10347464594_cbb806f238_b1-427x220.jpg" class="attachment-news_block wp-post-image" alt="10347464594_cbb806f238_b">					                  <div class="date">07<span>Apr</span><span class="line"></span></div> 
+  						                  </a>               		
+  					                	</div>
+
+  							            <div class="title">
+  							              <a href="http://ava-themes.com/WP/United/converting-to-led-lights/">Converting to LED lights: everything you need to know</a>
+  							            </div>
+  							            <div class="info">
+  							              <div class="category"><a href="http://ava-themes.com/WP/United/category/lifestyle_cat/" title="View all posts in Lifestyle" rel="category tag">Lifestyle</a>, <a href="http://ava-themes.com/WP/United/category/technology/" title="View all posts in Technology" rel="category tag">Technology</a></div>
+  							              <div class="comments"><img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment@2x.png" alt=""><a href="http://ava-themes.com/WP/United/converting-to-led-lights/#comments ">no comments</a></div>
+  							            </div>
+  							            <p>What lights do you use at home? I’m 100% LED now – even my fridge light is LED. You don’t need to go that...</p>
+  							            <a href="http://ava-themes.com/WP/United/converting-to-led-lights/" class="readMore">Read More</a>
+  					                </li> 
+  									                    	
+  					                <li style="float: left; list-style: none; position: relative; width: 100px;">
+  					                	<div class="slideNewsItem">
+  					                	  <a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/">
+  						                  <img width="427" height="220" src="http://www.untvweb.com/wp-content/files_mf/cache/th_e23175e9d2fb24adb0e1d635dca1b01d_1395733624isangarawlangthumbnail.png" class="attachment-news_block wp-post-image" alt="texting">					                  <div class="date">03<span>Apr</span><span class="line"></span></div> 
+  						                  </a>               		
+  					                	</div>
+
+  							            <div class="title">
+  							              <a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/">Isang Araw Lang Advocacy</a>
+  							            </div>
+  							            <div class="info">
+  							              <div class="category"><a href="http://ava-themes.com/WP/United/category/technology/" title="View all posts in Technology" rel="category tag">Technology</a></div>
+  							              <div class="comments"><img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment@2x.png" alt=""><a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/#comments ">one comment</a></div>
+  							            </div>
+  							            <p>Texting is bad for your health. Do it while walking and you can bump into walls or step out into traffic. Studies have linked...</p>
+  							            <a href="http://ava-themes.com/WP/United/crimes-of-the-hot-3/" class="readMore">Read More</a>
+  					                </li> 
+  									 		                                        
+  			                    <li style="float: left; list-style: none; position: relative; width: 100px;" class="bx-clone">
+  					                	<div class="slideNewsItem">
+  					                	  <a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/">
+  						                  <img width="427" height="220" src="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/10175766475_63880ff440_o-427x220.jpg" class="attachment-news_block wp-post-image" alt="OLYMPUS DIGITAL CAMERA">					                  <div class="date">23<span>Apr</span><span class="line"></span></div> 
+  						                  </a>               		
+  					                	</div>
+
+  							            <div class="title">
+  							              <a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/">WhatsApp now has 500m active users sharing 700m photos a day</a>
+  							            </div>
+  							            <div class="info">
+  							              <div class="category"><a href="http://ava-themes.com/WP/United/category/technology/" title="View all posts in Technology" rel="category tag">Technology</a></div>
+  							              <div class="comments"><img src="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment.png" data-at2x="http://ava-themes.com/WP/United/wp-content/themes/united/img/comment@2x.png" alt=""><a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/#comments ">no comments</a></div>
+  							            </div>
+  							            <p>Messaging app WhatsApp now has 500m active users, having added 70m since announcing in February that it was being&nbsp;bought by Facebook for $19bn. “In...</p>
+  							            <a href="http://ava-themes.com/WP/United/whatsapp-now-has-500m-active-users-sharing-700m-photos-a-day/" class="readMore">Read More</a>
+  					                </li></ul></div><div class="bx-controls bx-has-pager bx-has-controls-direction"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a></div><div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div></div><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>  
+  			              	   
+
+  	         
+  		                  </div>
+
+  		                <!-- close the off-canvas menu -->
+  		                <a class="exit-off-canvas"></a>
+
+  		                </div>
+  		              </div>
+  		            </div>
+  		          </div>         		
+  	        	</div>
+
+
+  	        	
+
+
+
+
+
+  	        	      </div>
+
+
+  	        	      <div class="large-4 medium-12 columns addLeft">
+
+        	             <div class="add large-12 medium-6 columns show-for-large-up singleWidgets">
+        	                <h3 class="widget-title" style="margin:0px;">Live Stream</h3>
+        	                <div class="wp_bannerize side">
+        	     				 <div style="background:#EBEBEB; width:100%; height:300px; ">
+        	     				 	
+        	      				</div>
+        	      			</div>  
+        	      		  </div>
+  	        	        </div>
+
+  	        	    </div>
+
+  				</div>
+	  			<div class="section lastSection" style="margin-bottom:20px;">
+	  			      &nbsp;
+	  			</div>
 
 
 <?php 

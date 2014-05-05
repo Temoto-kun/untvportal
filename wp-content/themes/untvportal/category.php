@@ -15,8 +15,9 @@
           <div class="large-12 columns post_blocks">
 
 				<?php
+					$cat_name = single_cat_title("",false);
 				   $category = "programs";
-				   $category_post = get_posts('numberposts=-1offset=0&orderby=title&order=ASC&category_name='.$category);
+				   $category_post = get_posts('numberposts=-1offset=0&orderby=title&order=ASC&category_name='.$cat_name);
 				   foreach($category_post as $post) :
 				   setup_postdata($post);
 				   

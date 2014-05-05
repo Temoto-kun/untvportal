@@ -315,7 +315,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 						<div class="kodda_resp_menu kodda_resp_menu_4 kodda_resp_menu_dropdowns " data-menu_type="dropdowns" >
 
-							<a href="" class="kodda_resp_top_link  " data-prevent="yes" >Categories 
+							<a href="" class="kodda_resp_top_link  " data-prevent="yes" >Videos
 								<span class="ct_font_box" >
 									<span aria-hidden="true" class="icon ct-carret-down" ></span>
 								</span> 
@@ -374,7 +374,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 						<div class="kodda_resp_menu kodda_resp_menu_5 kodda_resp_menu_links " data-menu_type="links" >
 
-							<a href="http://ava-themes.com/WP/United/reviews_page/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Reviews 
+							<a href="http://ava-themes.com/WP/United/reviews_page/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Advocacy 
 								<span class="ct_font_box" >
 									<span aria-hidden="true" class="icon ct-carret-down" ></span>
 								</span> 
@@ -383,7 +383,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 						<div class="kodda_resp_menu kodda_resp_menu_6 kodda_resp_menu_links " data-menu_type="links" >
 
-							<a href="http://ava-themes.com/WP/United/shortcodes/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Shortcodes 
+							<a href="http://ava-themes.com/WP/United/shortcodes/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Radio
 								<span class="ct_font_box" >
 									<span aria-hidden="true" class="icon ct-carret-down" ></span>
 								</span> 
@@ -392,7 +392,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 						<div class="kodda_resp_menu kodda_resp_menu_7 kodda_resp_menu_links " data-menu_type="links" >
 
-							<a href="http://ava-themes.com/WP/United/shop/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Shop 
+							<a href="<?php echo site_url()."/programs-host";?>" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Hosts
 								<span class="ct_font_box" >
 									<span aria-hidden="true" class="icon ct-carret-down" ></span>
 								</span> 
@@ -411,7 +411,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 				</div><!--kodda_responsive-->
 
 				<div class="kodda_menu kodda_menu_1 kodda_menu_mobile kodda_menu_mobile_1 kodda_menu_dropdowns" data-menu_type="dropdowns" style="position:relative;">
-					<a href="http://ava-themes.com/WP/United/" class="kodda_top_link " data-prevent="yes" >Home
+					<a href="<?php echo site_url();?>" class="kodda_top_link " data-prevent="yes" >Home
 
 						<span class="ct_font_box">
 							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
@@ -420,27 +420,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 					<span class="kodda_top_link_right_border"></span>
 
-					<div class="kodda_submenu kodda_submenu_1" style="width:200px;" >
-						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
-							<a href="http://ava-themes.com/WP/United/home-02/" data-prevent="yes" >Homepage 02 </a>
-																		  
-						</div><!--kodda_submenu_posts_categories-->
-
-						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
-							<a href="http://ava-themes.com/WP/United/home-03/" data-prevent="yes" >Homepage 03 </a>
-																		  
-						</div><!--kodda_submenu_posts_categories-->
-
-						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
-						 	<a href="http://ava-themes.com/WP/United/home-04/" data-prevent="yes" >Homepage 04 </a>
-																		  
-						</div><!--kodda_submenu_posts_categories-->
-
-						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
-							<a href="http://ava-themes.com/WP/United/home-05/" data-prevent="yes" >Homepage 05 </a>
-																		  
-						</div><!--kodda_submenu_posts_categories-->
-					</div><!--kodda_submenu-->
+					
 				</div><!--kodda_menu-->
 
 				<div class="kodda_menu kodda_menu_2 kodda_menu_mobile kodda_menu_mobile_2 kodda_menu_posts" data-menu_type="posts" >
@@ -700,7 +680,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 				<div class="kodda_menu kodda_menu_4 kodda_menu_mobile kodda_menu_mobile_4 kodda_menu_dropdowns" data-menu_type="dropdowns" style="position:relative;">
 
-					<a href="" class="kodda_top_link " data-prevent="yes" >Categories
+					<a href="" class="kodda_top_link " data-prevent="yes" >Videos
 						<span class="ct_font_box">
 							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
 						</span>
@@ -743,7 +723,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 				<div class="kodda_menu kodda_menu_5 kodda_menu_mobile kodda_menu_mobile_5 kodda_menu_links" data-menu_type="links" >
 
-					<a href="http://ava-themes.com/WP/United/reviews_page/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Reviews
+					<a href="http://ava-themes.com/WP/United/reviews_page/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Advocacy
 						<span class="ct_font_box">
 							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
 						</span>
@@ -753,7 +733,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 				<div class="kodda_menu kodda_menu_6 kodda_menu_mobile kodda_menu_mobile_6 kodda_menu_links" data-menu_type="links" >
 
-					<a href="http://ava-themes.com/WP/United/shortcodes/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Shortcodes
+					<a href="http://ava-themes.com/WP/United/shortcodes/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Radio
 						<span class="ct_font_box">
 							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
 						</span>
@@ -763,7 +743,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 				<div class="kodda_menu kodda_menu_7 kodda_menu_mobile kodda_menu_mobile_7 kodda_menu_links" data-menu_type="links" >
 
-					<a href="http://ava-themes.com/WP/United/shop/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Shop
+					<a href="<?php echo site_url()."/programs-host";?>" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Hosts
 						<span class="ct_font_box">
 							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
 						</span>
@@ -1012,7 +992,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 			     <a class="close-reveal-modal">&#215;</a>
             </div>
 
-                          <a href="http://ava-themes.com/WP/United/shop" class="cart">Shop</a>
+                        <!--   <a href="http://ava-themes.com/WP/United/shop" class="cart">Shop</a> -->
              
                   </div>        
       </div>
