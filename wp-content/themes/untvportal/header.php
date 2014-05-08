@@ -689,7 +689,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 									</span>
 								</a>
 							<?php endforeach;?>
-							<a class="kodda_posts_cat kodda_posts_cat_1" href="<?php echo site_url()."/programs" ?>" data-prevent="yes" data-encoded_cat="421b47ffd946ca083b65cd668c6b17e6" >
+							<a class="kodda_posts_cat kodda_posts_cat_1" href="<?php echo site_url()."/advocacies" ?>" data-prevent="yes" data-encoded_cat="421b47ffd946ca083b65cd668c6b17e6" >
 								<span>View more Advocacies >>> </span>
 								<span class="ct_font_box">
 									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
