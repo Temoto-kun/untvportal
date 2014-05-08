@@ -372,14 +372,45 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 							</div><!--kodda_resp_submenu-->
 						</div><!--kodda_resp_menu-->
 
-						<div class="kodda_resp_menu kodda_resp_menu_5 kodda_resp_menu_links " data-menu_type="links" >
+						<div class="kodda_resp_menu kodda_resp_menu_5 kodda_resp_menu_posts" data-menu_type="posts" >
 
-							<a href="http://ava-themes.com/WP/United/reviews_page/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Advocacy 
+							<a href="<?php echo site_url()."/advocacies"?>" class="kodda_resp_top_link  " data-prevent="yes" >Advocacies
 								<span class="ct_font_box" >
 									<span aria-hidden="true" class="icon ct-carret-down" ></span>
 								</span> 
 							</a>
-						</div><!--kodda_resp_menu-->
+
+								<div class="kodda_resp_submenu kodda_resp_submenu_1">
+									<?php
+									   $category = "advocacies";
+									   $category_post = get_posts('numberposts=5&offset=0&orderby=title&order=ASC&category_name='.$category);
+									   foreach($category_post as $post) :
+									   setup_postdata($post);
+									   
+									
+									    $thumbnail_id = get_post_thumbnail_id($post->ID);
+									    $thumbnail_object = get_post($thumbnail_id);
+									    
+									?>
+									<div class="kodda_resp_submenu_posts_content_cat" >
+										<div class="kodda_clearfix" ></div>
+										<a class="kodda_resp_posts_cat kodda_resp_posts_cat_1 " href="http://ava-themes.com/WP/United/crimes-of-the-hot-5/" data-prevent="yes" ><?php the_title(); ?> 
+											<!-- <span class="ct_font_box" >
+												<span aria-hidden="true" class="icon ct-carret-down" ></span>
+											</span>  -->
+										</a> 
+
+									</div><!--kodda_resp_submenu_posts_content_cat-->
+								<?php endforeach; ?>
+									<div class="kodda_resp_submenu_posts_content_cat" >
+										<div class="kodda_clearfix" ></div>
+										<a class="kodda_resp_posts_cat kodda_resp_posts_cat_1 " href="<?php echo site_url()."/programs" ?>" data-prevent="yes" >View more Advocacies >>> 
+										
+										</a> 
+
+									</div><!--kodda_resp_submenu_posts_content_cat-->
+									</div><!--kodda_resp_submenu-->
+								</div><!--kodda_resp_menu-->
 
 						<div class="kodda_resp_menu kodda_resp_menu_6 kodda_resp_menu_links " data-menu_type="links" >
 
@@ -516,99 +547,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 							<?php endforeach; ?>
 							</div>
 
-							<div class="kodda_posts_cat_container kodda_posts_cat_container_2 " data-parent_cat="a5ca0b5894324f8bb54bb9fffad29d1e" >
-								<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-									<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-								</a>
-								<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-									<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-								</a>
-								<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-									<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-								</a>
-							</div>
-
-							<div class="kodda_posts_cat_container kodda_posts_cat_container_3 " data-parent_cat="2767cc3ede7592a47bd6657e3799565c" >
-								<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-									<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-								</a>
-
-								<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-									<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-								</a>
-
-								<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-									<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-									<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-								</a>
-
-								</div>
-
-								<div class="kodda_posts_cat_container kodda_posts_cat_container_4 " data-parent_cat="7a674c327bfa07f7c1204fb38ca6ef3b" >
-									<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-										<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-									</a>
-
-									<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-										<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-									</a>
-
-									<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-										<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-									</a>
-								</div>
-
-								<div class="kodda_posts_cat_container kodda_posts_cat_container_5 " data-parent_cat="c00f0c4675b91fb8b918e4079a0b1bac" >
-
-									<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-										<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-									</a>
-
-									<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-										
-										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-										<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-									</a>
-
-									<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-										<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-									</a>
-
-								</div>
-
-								<div class="kodda_posts_cat_container kodda_posts_cat_container_6 " data-parent_cat="78805a221a988e79ef3f42d7c5bfd418" >
-
-									<a href="http://ava-themes.com/WP/United/neil-robertson-fights-back-against-mark-selby-to-win-uk-championship/" style="width:200px;" >
-									
-										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/4848728447_8d430fe4a5_b.jpg" alt="Neil Robertson fights back against Mark Selby to win UK Championship" title="Neil Robertson fights back against Mark Selby to win UK Championship" style="width:200px;height:200px;" >
-										<span>Neil Robertson fights back against Mark Selby to win UK Championship</span>
-									
-									</a>
-
-									<a href="http://ava-themes.com/WP/United/lance-armstrongs-ex-team-manager-johan-bruyneel-banned-for-10-years/" style="width:200px;" >
-										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/103193233_efd7007375_b.jpg" alt="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" title="Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years" style="width:200px;height:200px;" >
-										<span>Lance Armstrong&#8217;s ex-team manager Johan Bruyneel banned for 10 years</span>
-									</a>
-
-									<a href="http://ava-themes.com/WP/United/yasiel-puig-takes-dodgers-on-a-wild-ride-but-theres-no-defect-in-his-play/" style="width:200px;" >
-										
-										<img class="kodda_lazy_load" data-original="http://ava-themes.com/WP/United/wp-content/uploads/2014/04/3599761533_00a3da49c1_b.jpg" alt="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" title="Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play" style="width:200px;height:200px;" >
-										
-										<span>Yasiel Puig takes Dodgers on a wild ride – but there&#8217;s no defect in his play</span>
-									
-									</a>
-
-								</div>
+							
 							</div><!--kodda_submenu_posts_all_posts-->
 						</div><!--kodda_submenu-->
 					</div><!--kodda_menu-->
@@ -720,16 +659,103 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 					</div><!--kodda_submenu-->
 				</div><!--kodda_menu-->
+				<div class="kodda_menu kodda_menu_5 kodda_menu_mobile kodda_menu_mobile_2 kodda_menu_posts" data-menu_type="posts" >
 
-				<div class="kodda_menu kodda_menu_5 kodda_menu_mobile kodda_menu_mobile_5 kodda_menu_links" data-menu_type="links" >
-
-					<a href="http://ava-themes.com/WP/United/reviews_page/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Advocacy
+					<a href="<?php echo site_url()."/advocacies"?>" class="kodda_top_link  " data-prevent="yes" >Advocacies
 						<span class="ct_font_box">
 							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
 						</span>
 					</a>
 					<span class="kodda_top_link_right_border"></span>
-				</div><!--kodda_menu-->
+					
+					<div class="kodda_submenu kodda_submenu_1" style="height:310px;" >
+						<div class="kodda_submenu_posts_categories" style="height:310px;" >
+							
+							<?php
+							   $category = "advocacies";
+							   $category_post = get_posts('numberposts=5offset=0&orderby=title&order=ASC&category_name='.$category);
+							   foreach($category_post as $post) :
+							   setup_postdata($post);
+							   
+							
+							    $thumbnail_id = get_post_thumbnail_id($post->ID);
+							    $thumbnail_object = get_post($thumbnail_id);
+							    
+							?>
+								<a class="kodda_posts_cat kodda_posts_cat_1" href="<?php the_permalink(); ?>" data-prevent="yes" data-encoded_cat="421b47ffd946ca083b65cd668c6b17e6" >
+									<span><?php the_title();?></span>
+									<span class="ct_font_box">
+										<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
+									</span>
+								</a>
+							<?php endforeach;?>
+							<a class="kodda_posts_cat kodda_posts_cat_1" href="<?php echo site_url()."/programs" ?>" data-prevent="yes" data-encoded_cat="421b47ffd946ca083b65cd668c6b17e6" >
+								<span>View more Advocacies >>> </span>
+								<span class="ct_font_box">
+									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
+								</span>
+							</a>
+						</div><!--kodda_submenu_posts_categories-->
+
+						<div class="kodda_submenu_posts_all_posts" style="height:310px;" >
+							<div class="kodda_posts_cat_container kodda_posts_cat_container_1 " data-parent_cat="421b47ffd946ca083b65cd668c6b17e6" >
+								<?php
+								   $category = "advocacy-featured-1";
+								   $category_post = get_posts('numberposts=1&offset=0&category_name='.$category);
+								   foreach($category_post as $post) :
+								   setup_postdata($post);
+								   
+								
+								    $thumbnail_id = get_post_thumbnail_id($post->ID);
+								    $thumbnail_object = get_post($thumbnail_id);
+								    
+								?>
+								<a href="<?php the_permalink(); ?>" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="<?php echo $thumbnail_object->guid; ?>" alt="<?php the_title(); ?>" style="width:200px;height:200px;" >
+									<span><?php the_title();?></span>
+								</a>
+							<?php endforeach; ?>
+
+							<?php
+							   $category = "advocacy-featured-2";
+							   $category_post = get_posts('numberposts=1&offset=0&category_name='.$category);
+							   foreach($category_post as $post) :
+							   setup_postdata($post);
+							   
+							
+							    $thumbnail_id = get_post_thumbnail_id($post->ID);
+							    $thumbnail_object = get_post($thumbnail_id);
+							    
+							?>
+								<a href="<?php the_permalink(); ?>" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="<?php echo $thumbnail_object->guid; ?>" alt="<?php the_title();?>"  style="width:200px;height:200px;" >
+									<span><?php the_title(); ?></span>
+								</a>
+							<?php endforeach; ?>
+
+							<?php
+							   $category = "advocacy-featured-3";
+							   $category_post = get_posts('numberposts=1&offset=0&category_name='.$category);
+							   foreach($category_post as $post) :
+							   setup_postdata($post);
+							   
+							
+							    $thumbnail_id = get_post_thumbnail_id($post->ID);
+							    $thumbnail_object = get_post($thumbnail_id);
+							    
+							?>
+								<a href="<?php the_permalink(); ?>" style="width:200px;" >
+									<img class="kodda_lazy_load" data-original="<?php echo $thumbnail_object->guid; ?>" alt="<?php the_title(); ?>"  style="width:200px;height:200px;" >
+									<span><?php the_title(); ?></span>
+								</a>
+
+							<?php endforeach; ?>
+							</div>
+
+							
+							</div><!--kodda_submenu_posts_all_posts-->
+						</div><!--kodda_submenu-->
+					</div><!--kodda_menu-->
 
 				<div class="kodda_menu kodda_menu_6 kodda_menu_mobile kodda_menu_mobile_6 kodda_menu_links" data-menu_type="links" >
 

@@ -54,7 +54,32 @@
 
 		<!-- Music Tabs -->
 		<?php
+		if(in_category('programs-host')):
+		$tag = "";
+		if ($posttags) {
+	 	 foreach($posttags as $tag) {
+	  		$tag = $tag->name;
+	  	  }
+		}
+		?>
 
+		<div class="large-4 medium-12 columns ">
+		  <div class="large-12 medium-12  columns singleWidgets" >
+		  
+		  	<h3 class="widget-title" style="margin:0px;">Programs</h3>
+
+		  	<h4><?php echo $tag; ?></h4>
+		  </div>
+		</div>
+		<?php
+
+			 
+			endif;
+
+
+		?>
+		<?php
+		if(in_category('programs')):
 		$args=array('posts_per_page'=>-1, 'tag' => $tag, 'category_name' =>'programs-schedule');
 		$wp_query = new WP_Query( $args );
 		
@@ -80,7 +105,7 @@
 			endif;
 			$wp_query = null;
 			wp_reset_query();
-		
+			endif;
 
 
 		?>
@@ -89,7 +114,7 @@
 		<div class="large-4 medium-12 columns ">
 	        <div id="accountactivity" class="large-12 medium-12 columns singleWidgets">
 	        <?php
-
+	        if(in_category('programs')):
 	        $args=array('posts_per_page'=>-1, 'tag' => $tag, 'category_name' =>'programs-episode');
 	        $wp_query = new WP_Query( $args );
 	        
@@ -106,7 +131,7 @@
 	        	endif;
 	        	$wp_query = null;
 	        	wp_reset_query();
-	        
+	        	endif;
 
 
 	        ?>  
@@ -115,7 +140,7 @@
 	         </div>
 	     </div>
    		<?php
-
+   		if(in_category('programs')):
    		$args=array('posts_per_page'=>-1, 'tag' => $tag, 'category_name' =>'programs-host');
    		$wp_query = new WP_Query( $args );
    		
@@ -166,7 +191,7 @@
                	$wp_query = null;
                	wp_reset_query();
                
-
+               	endif;
 
                ?>  
    
