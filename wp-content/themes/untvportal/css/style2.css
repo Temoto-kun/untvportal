@@ -2555,6 +2555,7 @@ input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus
 /* line 2132, ../scss/style.scss */
 .footer .linksRow {
   padding-bottom: 57px;
+  display: none;
 }
 /* line 2136, ../scss/style.scss */
 .footer .linksRow .title {
