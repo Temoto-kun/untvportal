@@ -168,7 +168,7 @@
 						<div class="large-4 medium-4 small-12 columns slideItem">
 				           
 				            <a href="#" >
-				              <img width="441" height="275" src="http://www.untvweb.com/wp-content/files_mf/cache/th_2182122c6b5fe6c9cc0f4a92521738fa_1399437680IMAGE_MAY052014_UNTVCup2PHOTOVILLEInternational_MADSMILANA_REYVERCIDE_UNTVCupweb_LGUHOR.png" class="attachment-slider_small wp-post-image" alt="Joy of comfort" />				              <div class="textHold">
+				              <img width="441" height="275" src="http://www.untvweb.com/wp-content/files_mf/cache/th_2182122c6b5fe6c9cc0f4a92521738fa_1399437680IMAGE_MAY052014_UNTVCup2PHOTOVILLEInternational_MADSMILANA_REYVERCIDE_UNTVCupweb_LGUHOR.png" class="attachment-slider_small wp-post-image" alt="Joy of comfort" style="height:249px;"/>				              <div class="textHold">
 				                <div class="large-12 columns">
 				                  <div class="date">21<span>Mar</span><span class="line"></span></div>
 				                </div>
