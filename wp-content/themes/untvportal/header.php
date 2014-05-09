@@ -366,7 +366,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 						<div class="kodda_resp_menu kodda_resp_menu_6 kodda_resp_menu_links " data-menu_type="links" >
 
-							<a href="http://ava-themes.com/WP/United/shortcodes/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Radio
+							<a href="#" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Radio
 								<span class="ct_font_box" >
 									<span aria-hidden="true" class="icon ct-carret-down" ></span>
 								</span> 
@@ -384,7 +384,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 						<div class="kodda_resp_menu kodda_resp_menu_8 kodda_resp_menu_links " data-menu_type="links" >
 
-							<a href="http://ava-themes.com/WP/United/contact/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Contact 
+							<a href="#" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Contact 
 								<span class="ct_font_box" >
 									<span aria-hidden="true" class="icon ct-carret-down" ></span>
 								</span> 
@@ -679,7 +679,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 				<div class="kodda_menu kodda_menu_6 kodda_menu_mobile kodda_menu_mobile_6 kodda_menu_links" data-menu_type="links" >
 
-					<a href="http://ava-themes.com/WP/United/shortcodes/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Radio
+					<a href="#" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Radio
 						<span class="ct_font_box">
 							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
 						</span>
@@ -701,7 +701,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 				<div class="kodda_menu kodda_menu_8 kodda_menu_mobile kodda_menu_mobile_8 kodda_menu_links" data-menu_type="links" >
 
-					<a href="http://ava-themes.com/WP/United/contact/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Contact
+					<a href="#" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Contact
 						<span class="ct_font_box">
 							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
 						</span>
