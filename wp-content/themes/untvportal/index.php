@@ -932,7 +932,7 @@
       			</div>  
       		  </div>
       		  <div class="add large-12 medium-6 columns singleWidgets">
-      		     <h3 class="widget-title" style="margin:0px;">UNTV Radio : Bombia</h3>
+      		     <h3 class="widget-title" style="margin:0px;">UNTV Radio </h3>
       		     <div id="jw-player">
 	                 <div id="player-content">
 	                     <div id="mediaplayer_wrapper" style="height:45px;">
