@@ -315,61 +315,13 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 						<div class="kodda_resp_menu kodda_resp_menu_4 kodda_resp_menu_dropdowns " data-menu_type="dropdowns" >
 
-							<a href="" class="kodda_resp_top_link  " data-prevent="yes" >Videos
+							<a href="<?php echo site_url()."/videos"?>" class="kodda_resp_top_link  " data-prevent="yes" >Videos
 								<span class="ct_font_box" >
 									<span aria-hidden="true" class="icon ct-carret-down" ></span>
 								</span> 
 							</a>
 
-							<div class="kodda_resp_submenu kodda_resp_submenu_1" >
-								<div class="kodda_resp_submenu_links_column">
-									<a href="http://ava-themes.com/WP/United/category/technology/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Technology 
-										<span class="ct_font_box" >
-											<span aria-hidden="true" class="icon ct-carret-down" ></span>
-										</span> 
-									</a>
-								</div><!--kodda_resp_submenu_links_column-->
-
-								<div class="kodda_resp_submenu_links_column">
-									<a href="http://ava-themes.com/WP/United/category/entertainment/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Entertainment 
-										<span class="ct_font_box" >
-											<span aria-hidden="true" class="icon ct-carret-down" ></span>
-										</span> 
-									</a>
-								</div><!--kodda_resp_submenu_links_column-->
-
-								<div class="kodda_resp_submenu_links_column">
-									<a href="http://ava-themes.com/WP/United/category/fashion/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Fashion 
-										<span class="ct_font_box" >
-											<span aria-hidden="true" class="icon ct-carret-down" ></span>
-										</span> 
-									</a>
-								</div><!--kodda_resp_submenu_links_column-->
-
-								<div class="kodda_resp_submenu_links_column">
-									<a href="http://ava-themes.com/WP/United/category/food/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Food 
-										<span class="ct_font_box" >
-											<span aria-hidden="true" class="icon ct-carret-down" ></span>
-										</span> 
-									</a>
-								</div><!--kodda_resp_submenu_links_column-->
-
-								<div class="kodda_resp_submenu_links_column">
-									<a href="http://ava-themes.com/WP/United/category/lifestyle_cat/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Lifestyle 
-										<span class="ct_font_box" >
-											<span aria-hidden="true" class="icon ct-carret-down" ></span>
-										</span> 
-									</a>
-								</div><!--kodda_resp_submenu_links_column-->
-
-								<div class="kodda_resp_submenu_links_column">
-									<a href="http://ava-themes.com/WP/United/category/sports/" class="kodda_resp_submenu_links_column_title kodda_resp_top_link_same_padding" data-prevent="no" >Sports 
-										<span class="ct_font_box" >
-											<span aria-hidden="true" class="icon ct-carret-down" ></span>
-										</span> 
-									</a>
-								</div><!--kodda_resp_submenu_links_column-->
-							</div><!--kodda_resp_submenu-->
+						
 						</div><!--kodda_resp_menu-->
 
 						<div class="kodda_resp_menu kodda_resp_menu_5 kodda_resp_menu_posts" data-menu_type="posts" >
@@ -619,45 +571,13 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 				<div class="kodda_menu kodda_menu_4 kodda_menu_mobile kodda_menu_mobile_4 kodda_menu_dropdowns" data-menu_type="dropdowns" style="position:relative;">
 
-					<a href="" class="kodda_top_link " data-prevent="yes" >Videos
+					<a href="<?php echo site_url()."/videos"?>" class="kodda_top_link " data-prevent="yes" >Videos
 						<span class="ct_font_box">
 							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
 						</span>
 					</a>
 					<span class="kodda_top_link_right_border"></span>
-					<div class="kodda_submenu kodda_submenu_1" style="width:200px;" >
-						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
-							<a href="http://ava-themes.com/WP/United/category/technology/" data-prevent="yes" >Technology </a>
-																		  
-						</div><!--kodda_submenu_posts_categories-->
-
-						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
-							<a href="http://ava-themes.com/WP/United/category/entertainment/" data-prevent="yes" >Entertainment </a>
-																		  
-						</div><!--kodda_submenu_posts_categories-->
-
-						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
-
-							<a href="http://ava-themes.com/WP/United/category/fashion/" data-prevent="yes" >Fashion </a>
-																		  
-						</div><!--kodda_submenu_posts_categories-->
-
-						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
-							<a href="http://ava-themes.com/WP/United/category/food/" data-prevent="yes" >Food </a>
-																		  
-						</div><!--kodda_submenu_posts_categories-->
-
-						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
-							<a href="http://ava-themes.com/WP/United/category/lifestyle_cat/" data-prevent="yes" >Lifestyle </a>
-																		  
-						</div><!--kodda_submenu_posts_categories-->
-
-						<div class="kodda_submenu_dropdown_level_one" style="width:200px;" >
-							<a href="http://ava-themes.com/WP/United/category/sports/" data-prevent="yes" >Sports </a>
-																		  
-						</div><!--kodda_submenu_posts_categories-->
-
-					</div><!--kodda_submenu-->
+					
 				</div><!--kodda_menu-->
 				<div class="kodda_menu kodda_menu_5 kodda_menu_mobile kodda_menu_mobile_2 kodda_menu_posts" data-menu_type="posts" >
 

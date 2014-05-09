@@ -215,30 +215,7 @@
 
 <?php get_footer(); ?>
 <script>
-  /*
-  Copyright 2011 : Simone Gianni <simoneg@apache.org>
-
-  -- update by tcuttrissweb --
-     adds in title besdie thumbs in carousel.
-     adjusted css from the original to make room for this
-       allows resizing
-         to adjust size of the player adjust the css for:
-         .youtube iframe.player width / height accordingly.
-
-  -- update by oomlaut --
-     isolated function in its own scope, preventing $ collisions
-     converted to jQuery plugin pattern.
-        allows for chainability
-     added link to YouTube Channel (optional)
-     refactored callback functionality
-     adjusted css:
-        visual representation of currently viewing item
-        
-
-  Released under The Apache License 2.0 
-  http://www.apache.org/licenses/LICENSE-2.0
-
-  */
+  
   
   if (typeof jQuery != "undefined") {
       (function($) {

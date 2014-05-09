@@ -2,10 +2,31 @@
 
 <div id="wrapper">  
     <div class="tags authors">
-      <div class="row tagsHead">
+   
+    <?php 
+    $cat_title = "";
+    $cat_color = "";
+    if(is_category('programs')) : 
+
+    $cat_title = "Programs";
+    $cat_color = "#448CCB";
+    endif;
+    if(is_category('advocacies')) : 
+
+    $cat_title = "Advocacies";
+    $cat_color = "#F26C4F";
+    endif;
+    if(is_category('programs-host')) : 
+
+    $cat_title = "Hosts";
+    $cat_color = "#1CBBB4";
+    endif;
+    ?>
+      <div class="row tagsHead" style="border-bottom-color: <?php echo $cat_color;?>;">
         <div class="large-6 medium-6 columns">
-          <div class="tagsTitle">
-            Programs
+          <div class="tagsTitle" style="background-color:<?php echo $cat_color;?> ;">
+	          
+	          <?php echo $cat_title; ?>
           </div>
         </div>
       </div>
