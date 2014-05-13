@@ -1,11 +1,5 @@
 <?php get_header();?>
 
-<style type="text/css">
-#untvwebstream {
-	height: 100%;
-}
-</style>
-
 <div id="wrapper">  
 
 	
@@ -1000,7 +994,7 @@ jwplayer('untvwebstreamdiv').setup({
         'streamer': 'rtmp://livestream01.untvradio.com/public/',
         'file': 'untvradiostream',
         'abouttext': 'UNTV Radio',     
-        'aboutlink': 'untvradio', 
+        'aboutlink': 'mailto:info@untvradio.com', 
         'controlbar':'bottom',
         'events': {
                 onBufferChange: function(event) { document.getElementById('PlayerStatus').innerHTML = "Buffering..." },
