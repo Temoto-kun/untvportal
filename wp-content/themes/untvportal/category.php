@@ -35,6 +35,19 @@
           </div>
         </div>
       </div>
+      
+      <?php if(is_category('radio')): ?>
+      <div class="row whiteRow">
+		<div class="large-12 medium-12 columns tagMain">
+			<div class="large-12 columns post-blocks" style="padding:20px;">
+				<img src="<?php echo site_url(); ?>/wp-content/uploads/2014/05/logo.png">
+			</div>
+			<div class="large-12 columns post-blocks" style="padding:20px;">
+				UNTV Radio La Verdad is a 10,000 watt news and public service AM radio station which can be heard at a frequency of 1350kHz operating 24 hours a day.
+			</div>
+		</div>
+      </div>
+      <?php endif ?>
 
       <div class="row whiteRow">
         <div class="large-12 medium-12 columns tagMain" >

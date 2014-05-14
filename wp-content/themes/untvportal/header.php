@@ -880,7 +880,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 						<div class="kodda_submenu_posts_all_posts" style="height:310px;" >
 							<div class="kodda_posts_cat_container kodda_posts_cat_container_1 " data-parent_cat="421b47ffd946ca083b65cd668c6b17e6" >
 								<?php
-								   $category = "program-featured-1";
+								   $category = "radio-featured-1";
 								   $category_post = get_posts('numberposts=1&offset=0&category_name='.$category);
 								   foreach($category_post as $post) :
 								   setup_postdata($post);
@@ -897,7 +897,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 							<?php endforeach; ?>
 
 							<?php
-							   $category = "program-featured-2";
+							   $category = "radio-featured-2";
 							   $category_post = get_posts('numberposts=1&offset=0&category_name='.$category);
 							   foreach($category_post as $post) :
 							   setup_postdata($post);
@@ -914,7 +914,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 							<?php endforeach; ?>
 
 							<?php
-							   $category = "program-featured-3";
+							   $category = "radio-featured-3";
 							   $category_post = get_posts('numberposts=1&offset=0&category_name='.$category);
 							   foreach($category_post as $post) :
 							   setup_postdata($post);
