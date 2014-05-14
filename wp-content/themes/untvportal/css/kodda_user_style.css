@@ -1,0 +1,585 @@
+
+				/* Kodda Menu */
+				/* General Style */
+				#kodda_parent_full_width {
+					height:46px !important;
+				}
+				#kodda_container {
+					z-index:100 !important;
+					width:auto ;
+					height:46px !important;
+
+					/* color/bg/border */
+					background-color:transparent;
+					
+					
+					
+					border-top: 0 solid ;
+					border-right: 0 solid #111111;;
+					border-bottom: 0 solid #111111;;
+					border-left: 0 solid #111111;;
+
+					/* CSS3 Gradient */ 
+					background-image: -webkit-linear-gradient(top, transparent, transparent) ;
+					background-image: -moz-linear-gradient(top, transparent, transparent) ;
+					background-image: -o-linear-gradient(top, transparent, transparent) ;
+					background-image: -ms-linear-gradient(top, transparent, transparent) ;
+					background-image: linear-gradient(top, transparent, transparent) ;
+
+					/* CSS3 Box Shadow */
+					-moz-box-shadow   : 0px 0px 0px 0px #ffffff;
+					-webkit-box-shadow: 0px 0px 0px 0px #ffffff;
+					box-shadow        : 0px 0px 0px 0px #ffffff;
+				
+					/* CSS3 Border Radius */
+					-webkit-border-radius: 0px 0px 0px 0px; 
+					-moz-border-radius: 0px 0px 0px 0px; 
+					border-radius: 0px 0px 0px 0px; 
+
+				    /* Prevent background color leak outs */
+				    -webkit-background-clip: padding-box; 
+				    -moz-background-clip:    padding; 
+				    background-clip:         padding-box;
+
+				    /* CSS3 Fixes For IE */ 
+				    behavior: url(http://ava-themes.com/WP/United/wp-content/plugins/CTF_kodda_menu//standard/css/pie/PIE.php);
+				}
+
+
+
+				/* Site Title & Logo */
+				.kodda_title_container .kodda_title{
+					font-size:26px !important;
+					font-family:'Arial', 'Verdana' sans-serif !important; 
+					font-style:normal;
+					padding : 8px 15px 0px 15px !important;
+					height:46px !important;
+
+					/* color/bg/border */
+					color:#ffffff;
+				}
+				.kodda_title_container .kodda_title:hover{
+					/* color/bg/border */
+					color:#f1f1f1 !important;
+				}
+				.kodda_title_container .kodda_top_link_right_border {
+					width:1px !important;
+					height:44px !important;
+					margin-top:0px !important;
+
+					/* color/bg/border */
+					background-color:#3b3b3b !important;
+				}
+
+
+
+				/* Top Level Links */
+				.kodda_top_link {
+					line-height:46px !important;
+				}
+
+				.kodda_top_link,
+				.kodda_resp_top_link ,
+				.kodda_resp_posts_cat,
+				.kodda_resp_submenu_links_column_title ,
+				.kodda_resp_submenu_links_links a,
+
+				.kodda_top_link:link,
+				.kodda_resp_top_link:link ,
+				.kodda_resp_posts_cat:link,
+				.kodda_resp_submenu_links_column_title:link ,
+				.kodda_resp_submenu_links_links a:link,
+				
+				.kodda_top_link:visited,
+				.kodda_resp_top_link:visited ,
+				.kodda_resp_posts_cat:visited,
+				.kodda_resp_submenu_links_column_title:visited ,
+				.kodda_resp_submenu_links_links a:visited{
+
+					font-size:14px !important;
+					font-family:'Arial', 'Verdana' sans-serif !important; 
+					font-style:normal;
+					padding : 0px 25px 0px 15px;
+
+					/* color/bg/border */
+					color:#f1f1f1;
+				}
+
+				.kodda_menu:hover .kodda_top_link ,
+				.kodda_top_link:hover,
+				.kodda_resp_menu:hover .kodda_resp_top_link ,
+				.kodda_resp_top_link:hover,
+				.kodda_resp_submenu_posts_content_cat:hover .kodda_resp_posts_cat ,
+				.kodda_resp_posts_cat:hover
+				.kodda_resp_submenu_links_column_title:hover,
+				.kodda_resp_submenu_links_column:hover .kodda_resp_submenu_links_column_title,
+				.kodda_resp_submenu_links_links a:hover {
+					/* color/bg/border */
+					color:#ffffff;
+					background-color:#2b2b2b;
+				}
+
+				.kodda_top_link .ct_font_box,
+				.kodda_resp_top_link .ct_font_box,
+				.kodda_resp_posts_cat .ct_font_box ,
+				.kodda_resp_submenu_links_column_title .ct_font_box {
+					font-size:14px !important;
+					top:13px;
+					right:5px;
+					line-height:1em !important;
+
+					/* color/bg/border */
+					color:#f1f1f1;
+				}
+				.kodda_menu:hover .kodda_top_link .ct_font_box,
+				.kodda_resp_menu:hover .kodda_resp_top_link .ct_font_box,
+				.kodda_resp_submenu_posts_content_cat:hover .kodda_resp_posts_cat .ct_font_box,
+				.kodda_resp_submenu_links_column:hover .kodda_resp_submenu_links_column_title .ct_font_box {
+					/* color/bg/border */
+					color:#ffffff;
+				}
+
+				.kodda_menu > .kodda_top_link_right_border {
+					width:1px !important;
+					height:44px !important;
+					margin-top:0px !important;
+
+					/* color/bg/border */
+					background-color:#3b3b3b !important;
+				}
+
+				.kodda_top_link_current {
+					/* color/bg/border */
+					color:#ffffff !important;
+					background-color:#2b2b2b !important;
+				}
+					.kodda_top_link_current .ct_font_box{
+						/* color/bg/border */
+						color:#ffffff !important;
+					}
+				.kodda_top_link_same_padding {
+					padding : 0px 15px !important;
+				}
+
+
+
+				/* SubMenus */
+				.kodda_submenu {
+					top:44px !important;
+				}
+				.kodda_menu_posts .kodda_submenu,
+				.kodda_menu_links .kodda_submenu,
+				.kodda_menu_html .kodda_submenu {
+					/* color/bg/border */
+					background-color:#3b3b3b;
+					
+					
+					border-top: 1px solid #111111;
+					border-right: 1px solid #111111;
+					border-bottom: 1px solid #111111;
+					border-left: 1px solid #111111;
+
+					/* CSS3 Gradient */ 
+					background-image: -webkit-linear-gradient(top, #3b3b3b, #232323) ;
+					background-image: -moz-linear-gradient(top, #3b3b3b, #232323) ;
+					background-image: -o-linear-gradient(top, #3b3b3b, #232323) ;
+					background-image: -ms-linear-gradient(top, #3b3b3b, #232323) ;
+					background-image: linear-gradient(top, #3b3b3b, #232323) ;
+
+					/* CSS3 Box Shadow */
+					-moz-box-shadow   : 0px 0px 0px 0px #ffffff;
+					-webkit-box-shadow: 0px 0px 0px 0px #ffffff;
+					box-shadow        : 0px 0px 0px 0px #ffffff;
+				
+					/* CSS3 Border Radius */
+					-webkit-border-radius: 0px 0px 0px 0px; 
+					-moz-border-radius: 0px 0px 0px 0px; 
+					border-radius: 0px 0px 0px 0px; 
+
+				    /* Prevent background color leak outs */
+				    -webkit-background-clip: padding-box; 
+				    -moz-background-clip:    padding; 
+				    background-clip:         padding-box;
+
+				    /* CSS3 Fixes For IE */ 
+				    behavior: url(http://ava-themes.com/WP/United/wp-content/plugins/CTF_kodda_menu//standard/css/pie/PIE.php);
+				}
+
+
+
+				/* Posts */
+				.kodda_submenu_posts_categories {
+					width:262px !important;
+					padding:22px 0px 0px 0px !important;
+				
+					/* color/bg/border */
+					background-color:transparent;
+				}
+					.kodda_submenu_posts_categories a,
+					.kodda_submenu_posts_categories a:visited,
+					.kodda_submenu_posts_categories a:link{
+						font-size:14px !important;
+						font-family:'Arial', 'Verdana' sans-serif !important; 
+						font-style:normal;
+						padding: 15px 0px 15px 0px;
+
+						/* color/bg/border */
+						color:#f1f1f1;	
+					}
+					.kodda_submenu_posts_categories a:hover{
+						/* color/bg/border */
+						color:#ffffff;	
+						background-color:#2b2b2b;	
+					}
+					.kodda_submenu_posts_categories a .ct_font_box {
+						font-size:0 !important;
+						top:0;
+						right:0;
+
+						/* color/bg/border */
+						color:#f1f1f1;
+					}
+					.kodda_submenu_posts_categories a:hover .ct_font_box {
+						/* color/bg/border */
+						color:#ffffff;
+					}
+					.kodda_submenu_posts_all_posts a,
+					.kodda_resp_posts_cat_container a {
+						margin: 10px 0px 10px 20px;						
+					}
+						.kodda_submenu_posts_all_posts a span,
+						.kodda_resp_posts_cat_container a span {
+							font-size:14px !important;
+							font-family:'Arial', 'Verdana' sans-serif !important; 
+							font-style:normal;
+							padding: 0px 0px 0px 0px;
+
+							/* color/bg/border */
+							color:#f1f1f1;	
+						}
+							.kodda_submenu_posts_all_posts a span:hover ,
+							.kodda_resp_posts_cat_container a span:hover {
+								/* color/bg/border */
+								color:#ffffff;	
+							}
+
+
+
+				/* Links */
+				.kodda_submenu_links_column {
+					margin-left:20px;
+				}
+					.kodda_submenu_links_column_title,
+					.kodda_submenu_links_column_title:link,
+					.kodda_submenu_links_column_title:visited{
+						border-bottom: 1px solid #4b4b4b;
+
+						font-size:17px !important;
+						font-family:'Arial', 'Verdana' sans-serif !important; 
+						font-style:normal;
+						padding: 15px 0px 15px 0px;
+
+						/* color/bg/border */
+						color:#f1f1f1;							
+					}
+					.kodda_submenu_links_column_title:hover{
+						/* color/bg/border */
+						color:#ffffff;							
+					}
+					.kodda_submenu_links_column_links,
+					.kodda_submenu_links_column_links:link,
+					.kodda_submenu_links_column_links:visited{
+						font-size:14px;
+						font-family:'Arial', 'Verdana' sans-serif; 
+						font-style:normal;
+						padding: 15px 0px 0px 0px;
+
+						/* color/bg/border */
+						color:#f1f1f1;							
+					}
+					.kodda_submenu_links_column_links:hover{
+						/* color/bg/border */
+						color:#ffffff;							
+					}
+
+
+
+				/* Dropdowns */
+				.kodda_menu_dropdowns .kodda_submenu ,
+				.kodda_submenu_dropdown_level_two{
+					width:200px;
+
+					/* color/bg/border */
+					background-color:#3b3b3b;
+					
+											
+					border-top: 1px solid #111111;
+					border-right: 1px solid #111111;
+					border-bottom: 1px solid #111111;
+					border-left: 1px solid #111111;
+
+					/* CSS3 Gradient */ 
+					background-image: -webkit-linear-gradient(top, #3b3b3b, #232323) ;
+					background-image: -moz-linear-gradient(top, #3b3b3b, #232323) ;
+					background-image: -o-linear-gradient(top, #3b3b3b, #232323) ;
+					background-image: -ms-linear-gradient(top, #3b3b3b, #232323) ;
+					background-image: linear-gradient(top, #3b3b3b, #232323) ;
+
+					/* CSS3 Box Shadow */
+					-moz-box-shadow   : 0px 0px 0px 0px #ffffff;
+					-webkit-box-shadow: 0px 0px 0px 0px #ffffff;
+					box-shadow        : 0px 0px 0px 0px #ffffff;
+				
+					/* CSS3 Border Radius */
+					-webkit-border-radius: 0px 0px 0px 0px; 
+					-moz-border-radius: 0px 0px 0px 0px; 
+					border-radius: 0px 0px 0px 0px; 
+
+				    /* Prevent background color leak outs */
+				    -webkit-background-clip: padding-box; 
+				    -moz-background-clip:    padding; 
+				    background-clip:         padding-box;
+
+				    /* CSS3 Fixes For IE */ 
+				    behavior: url(http://ava-themes.com/WP/United/wp-content/plugins/CTF_kodda_menu//standard/css/pie/PIE.php);
+
+				}
+				.kodda_submenu_dropdown_level_two{
+					left:200px;
+				}
+					.kodda_menu_dropdowns .kodda_submenu a,
+					.kodda_menu_dropdowns .kodda_submenu a:link,
+					.kodda_menu_dropdowns .kodda_submenu a:visited {
+						font-size:14px;
+						font-family:'Arial', 'Verdana' sans-serif; 
+						font-style:normal;
+						padding: 10px 0px 10px 10px;
+						border-bottom: 1px solid #4b4b4b;
+
+						/* color/bg/border */
+						color:#f1f1f1;
+					}
+					.kodda_submenu_dropdown_level_one:hover > a,
+					.kodda_submenu_dropdown_level_two a:hover {
+						/* color/bg/border */
+						color:#ffffff !important;
+						background-color:#2b2b2b !important;
+					}
+					/* Fix border radius issue */
+					.kodda_submenu_dropdown_level_one:first-child > a ,
+					.kodda_submenu_dropdown_level_two a:first-child {
+						/* CSS3 Border Radius */
+						-webkit-border-radius: 0px 0px 0px 0px !important; 
+						-moz-border-radius: 0px 0px 0px 0px !important; 
+						border-radius: 0px 0px 0px 0px !important; 
+
+					    /* Prevent background color leak outs */
+					    -webkit-background-clip: padding-box; 
+					    -moz-background-clip:    padding; 
+					    background-clip:         padding-box;
+
+				   		/* CSS3 Fixes For IE */ 
+				    	behavior: url(http://ava-themes.com/WP/United/wp-content/plugins/CTF_kodda_menu//standard/css/pie/PIE.php);
+
+					}
+					.kodda_submenu_dropdown_level_one:last-child > a ,
+					.kodda_submenu_dropdown_level_two a:last-child {
+						/* CSS3 Border Radius */
+						-webkit-border-radius: 0px 0px 0px 0px !important; 
+						-moz-border-radius: 0px 0px 0px 0px !important; 
+						border-radius: 0px 0px 0px 0px !important; 
+
+					    /* Prevent background color leak outs */
+					    -webkit-background-clip: padding-box; 
+					    -moz-background-clip:    padding; 
+					    background-clip:         padding-box;
+
+					    /* no bottom border */
+					    border-bottom:none !important;
+					}
+					.kodda_submenu_dropdown_level_one .ct_font_box {
+						font-size:14px;
+						top:10px;
+						right:10px;
+
+						/* color/bg/border */
+						color:#f1f1f1;
+					}
+					.kodda_submenu_dropdown_level_one:hover .ct_font_box span{
+						/* color/bg/border */
+						color:#ffffff !important;
+					}
+
+
+
+				/* Search */
+				.kodda_search_container  {
+					padding: 9px 15px 0px 15px;
+				}
+					.kodda_search_form {
+					}
+						.kodda_search_container .kodda_search_input {
+							font-size:12px;
+							font-family:'Arial', 'Verdana' sans-serif; 
+							font-style:normal;
+							padding: 0px 0px 0px 10px;								
+
+							width:160px;
+							height:26px;
+							line-height:26px;
+
+							/* color/bg/border */
+							background-color:#4b4b4b;
+							color:#eaeaea;
+
+							border-top: 0px solid #ffffff;
+							border-right: 0px solid #ffffff;
+							border-bottom: 0px solid #ffffff;
+							border-left: 0px solid #ffffff;
+
+							/* CSS3 Border Radius */
+							-webkit-border-radius: 0px 0px 0px 0px; 
+							-moz-border-radius: 0px 0px 0px 0px; 
+							border-radius: 0px 0px 0px 0px; 
+
+						    /* Prevent background color leak outs */
+						    -webkit-background-clip: padding-box; 
+						    -moz-background-clip:    padding; 
+						    background-clip:         padding-box;
+
+				 		   /* CSS3 Fixes For IE */ 
+				 	 	  	behavior: url(http://ava-themes.com/WP/United/wp-content/plugins/CTF_kodda_menu//standard/css/pie/PIE.php);
+
+						}
+						.kodda_search_buttom {
+							font-size:16px;
+
+							/* color/bg/border */
+							color:#eaeaea !important;
+							background:#3f3f3f !important;
+
+							height:26px;
+							line-height:26px;
+
+							top:0px;
+							right:0px;
+
+							/* CSS3 Border Radius */
+							-webkit-border-radius: 0px 0px 0px 0px; 
+							-moz-border-radius: 0px 0px 0px 0px; 
+							border-radius: 0px 0px 0px 0px; 
+
+						    /* Prevent background color leak outs */
+						    -webkit-background-clip: padding-box; 
+						    -moz-background-clip:    padding; 
+						    background-clip:         padding-box;
+
+				    		/* CSS3 Fixes For IE */ 
+				    		behavior: url(http://ava-themes.com/WP/United/wp-content/plugins/CTF_kodda_menu//standard/css/pie/PIE.php);
+
+						}
+
+
+
+				/* Social */
+				.kodda_social_container {
+					height:46px;
+				}
+					.kodda_social_link{
+					}
+						.kodda_social_link_icon {
+							margin: 14px 0px 0px 10px;
+						}
+							.kodda_social_tooltip {
+								top:55px;
+
+								font-size:13px;
+								font-family:'Arial', 'Verdana' sans-serif; 
+								font-style:normal;
+								padding: 10px 10px ;								
+
+								/* color/bg/border */
+								color:#f1f1f1;
+								background:#3b3b3b;
+							}
+								.kodda_social_tooltip .ct_font_box{
+									right:10px;
+									/* color/bg/border */
+									color:#3b3b3b;
+								}
+
+		
+					/* Responsive */
+					.kodda_responsive {
+						height:46px;
+					}
+						.kodda_responsive > .ct_font_box{
+							padding: 10px 15px 0px 15px !important;
+							font-size:24px !important;
+							color:#f1f1f1 !important;
+							height:36px;
+						}
+						.kodda_responsive_content {
+							width : 100%;
+							top :44px !important;
+							/* color/bg/border */
+							background-color:transparent !important;
+							
+
+						}
+							/* First , Second & Third Level Links */
+							.kodda_resp_top_link ,
+							.kodda_resp_posts_cat ,
+							.kodda_resp_submenu_links_column_title,
+							.kodda_resp_submenu_links_links a{
+								border-bottom: 1px solid #4b4b4b;
+							}
+							
+							.kodda_resp_menu > a,
+							.kodda_resp_posts_cat,
+							.kodda_resp_submenu_links_column_title,
+							.kodda_resp_submenu_links_links > a{
+								line-height:34px !important;
+							}
+
+							.kodda_responsive_content {
+								border-top: 1px solid #4b4b4b;
+								border-bottom: 1px solid #4b4b4b;
+
+							}
+
+							/* Second Level Links */
+							.kodda_resp_posts_cat,
+							.kodda_resp_submenu_links_column_title {
+								padding-left : 30px !important;
+							} 
+							/* Third Level Links */
+							.kodda_resp_submenu_links_links a {
+								padding-left : 45px !important;
+							}
+							.kodda_resp_submenu_posts_content_cat .kodda_resp_posts_cat_container {
+								padding-left : 45px !important;
+								background-color:#3b3b3b;
+								
+							}
+							.kodda_resp_menu_html .kodda_resp_submenu{
+								background-color:#3b3b3b;
+								
+							}
+
+							.kodda_resp_menu:last-child .kodda_resp_submenu {
+								border-right: 1px solid #111111;
+								border-left: 1px solid #111111;
+							}
+
+							/** Fix Mobile Links Arrows **/
+							.kodda_resp_top_link > .ct_font_box,
+							.kodda_resp_submenu_links_column_title > .ct_font_box,
+							.kodda_resp_posts_cat > .ct_font_box {
+								top:0px !important;
+								line-height:inherit !important;
+								padding:0px 10px;
+							}
+
+				
+			

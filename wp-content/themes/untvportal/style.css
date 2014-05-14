@@ -1,0 +1,546 @@
+/*
+Theme Name: UNTV Portal
+Theme URI: http://untvweb.com
+Description: UNTV Portal Theme
+Version: 1
+Author: Jethro De Guzman
+Author URI: http://untvweb.com
+*/
+
+
+@import url('css/frontend.dev.css');
+@import url('css/style.css');
+@import url('css/responsive_mode_3.dev.css');
+@import url('css/kodda_user_style.css');
+@import url('css/foundation-icons.css');
+@import url('css/normalize.css');
+@import url('css/foundation.min.css');
+@import url('css/styles.css');
+@import url('css/woocommerce-layout.css');
+@import url('css/woocommerce-smallscreen.css');
+@import url('css/woocommerce.css');
+@import url('css/wpcloudy-anim.css');
+@import url('css/instag-slider.css');
+@import url('css/normalize2.css');
+@import url('css/jquery.bxslider.css');
+@import url('css/jquery.mCustomScrollbar.css');
+@import url('css/fonts.css');
+@import url('css/font-awesome.css');
+@import url('css/audioplayer.css');
+@import url('css/app.css');
+@import url('css/prettyPhoto.css');
+@import url('css/lightGallery.css');
+@import url('css/style2.css');
+@import url('css/responsive.css');
+@import url('css/addtoany.min.css');
+@import url('css/wp-multiratings.css');
+@import url('css/twocolumns.css');
+/*color : 
+	blue => rgb(38 71 178) #2647b2, 
+	yellow => rgb(254, 206, 0) #fece00
+
+*/
+
+iframe{
+	margin-bottom: -5px;
+	border-color: #363636;
+}
+
+.related_post_title {
+}
+ul.related_post {
+-moz-column-count: 2 !important;
+-moz-column-gap: 30px !important;
+-moz-column-rule: none !important;
+-webkit-column-count: 2 !important;
+-webkit-column-gap: 30px !important;
+-webkit-column-rule: none !important;
+column-count: 2 !important;
+column-gap: 30px !important;
+column-rule: none !important;
+padding-left: 24px !important;
+}
+ul.related_post li {
+background: #ebebeb;
+padding: 10px !important;
+padding-bottom: 0 !important;
+margin-bottom: 20px !important;
+position: relative !important;
+height: 80px;
+}
+ul.related_post li a {
+color: #393939 !important;
+font-family: "Proxima Nova" !important;
+font-size: 14px !important;
+line-height: 20px !important;
+}
+ul.related_post li img {
+}
+
+
+
+
+<!-- BACKGROUND -->
+
+
+.header, 
+.homeslider .textHold .date,
+.post_x2 .bx_news .date,
+.newsScollers .featuredImage .textHold .date,
+.middleColumn .large-12 .large-6 .image .date,
+.comment-list .reply a,
+.search-submit,
+.comments-area #submit:hover,
+.date,
+.products .image:hover .tag,
+.entry-summary p.price
+
+{background:#e72a30}
+
+
+
+
+<!-- BACKGROUND COLOR -->
+
+.newSocials ul li a,
+.hide_arrows .bx-wrapper .bx-next,
+.hide_arrows .bx-wrapper .bx-prev,
+.audioplayer-playpause,
+.newsTicker .side,
+.lyrics .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.newsScollers .scroller .image a,
+.sideContact input.wpcf7-submit:hover,
+.post_x2 .readMore:hover,
+.newsScollers .addStories a:hover,
+.ticker:before,
+.middleColumn .large-12 .large-6 .readMore:hover,
+.popularDiv li .image a,
+.about .aboutRow .brands .large-6 ul li:before,
+.post_blocks .date,
+.tags .post_blocks .readMore:hover,
+.post_blocks .image a,
+.categories .post_blocks .readMore:hover,
+.categories .categoryMain .txtHold .date,
+.carty
+{
+  background-color:#e72a30
+}
+
+
+
+
+<!-- COLOR -->
+
+
+.phoneAndLogin .login a:hover, 
+.homeslider li a:hover .textHold h1, 
+.homeslider li a:hover .textHold p, 
+.homeslider li a:hover .textHold .more, 
+.newSocials ul li a:hover,
+a,
+.menuArea .sideLinks a:hover,
+.newsticker i, 
+.ticker i,
+.footer .socialRow .large-4:hover a,
+.footer .linksRow ul li a:hover,
+.newsScollers .scroller ul li:hover .title a,
+.newsScollers .featuredImage .textHold h1 a:hover,
+.song ul li a:hover,
+.musicTabs .discography ul li:hover,
+.footer .linksRow .menu .sub-menu li a:hover,
+.single .bottom12 a:hover,
+.popularDiv li:hover .title a,
+.comments-area a,
+.comment-list .reply a:hover,
+.kodda_submenu_posts_all_posts .kodda_posts_cat_container a:hover span,
+.singleWidgets .widget a,
+.search-submit:hover,
+.tags .post_blocks .title a:hover,
+.addLeft .additionalImages .title a:hover,
+.tags .tagCloudWrap .tagCloud a:hover,
+.categories .categoryMain .txtHold h1 a:hover,
+.topNews:hover .txtHold h1 a, 
+.topNews:hover .txtHold p,
+.topNews:hover .txtHold .more;
+.contact .innerContact a.send:hover, .contact .wpcf7-submit:hover
+{color:#e72a30}
+
+
+
+<!-- BORDER COLOR -->
+
+
+.comment-list .reply a,
+.search-submit,
+.addLeft .additionalImages,
+.singleWidgets .widget-title
+
+{}
+
+
+
+
+.newsScollers .featuredImage,
+.sideContact,
+.contact-reveal,
+.popularDiv h3,
+.widget_search label span,
+.singleWidgets .widget-title
+{
+
+}
+
+
+.newsScollers .addStories,
+.song ul li a,
+.musicTabs .discography ul li
+{border-bottom-color:#e72a30}
+
+
+.hide_arrows .bx-wrapper .bx-next
+{background: #e72a30 url(http://ava-themes.com/WP/United/wp-content/themes/united/img/bx_arrows_right.png) no-repeat center center !important}
+
+
+.hide_arrows .bx-wrapper .bx-prev
+{background: #e72a30 url(http://ava-themes.com/WP/United/wp-content/themes/united/img/bx_arrows_left.png) no-repeat center center !important}
+
+.sideContact input.wpcf7-submit:before, .sideContact span.send:before {
+background: #e72a30 url(http://ava-themes.com/WP/United/wp-content/themes/united/img/contact_send.png) no-repeat center center;
+}
+
+.comments-area .form-submit:before {
+background:#e72a30 url(http://ava-themes.com/WP/United/wp-content/themes/united/img/contact_send.png) no-repeat center center;
+}
+
+
+.contact .innerContact a.send:before, .contact span.beforeFix:before {
+background: #e72a30 url(http://ava-themes.com/WP/United/wp-content/themes/united/img/contact_send.png) no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
+<!-- BACKGROUND COLOR -->
+
+.blue_section .large-5 .image a,
+.blue_section .large-5 .openAll:hover
+.blue_section .large-7 .bx-wrapper .bx-pager.bx-default-pager a:hover, 
+.blue_section .large-7 .bx-wrapper .bx-pager.bx-default-pager a.active,
+.four-o-four .inner,
+.blue_section .post_blocks .image a,
+.kodda_menu_2:hover a.kodda_top_link,
+.post_list .image a,
+.post_list .openAll:hover,
+.green_section .post_list .image a,
+.repeatableRow .sections .large-4 .equal:nth-child(5) .post_list .image a,
+.repeatableRow .sections .large-4 .equal:nth-child(5) .post_list .openAll:hover
+
+{background-color:#448ccb}
+
+<!-- COLOR -->
+
+.blue_section .post_list li:hover .title a,
+.blue_section .large-5 .title a:hover
+.blue_section h2,
+.blue_section .large-7 .title a:hover,
+.blue_section .large-7 .info div a:hover,
+.blue_section .post_blocks .large-12:hover .title a,
+.repeatableRow .sections .large-4 .equal:nth-child(5) h2,
+.repeatableRow .sections .large-4 .equal:nth-child(5) .post_list li:hover .title a
+.repeatableRow .sections .large-8 .middleColumn:nth-child(5) h2
+
+{color:#448ccb}
+<!-- BORDER COLOR -->
+
+.menuArea .menu li:nth-child(1),
+.menuArea .menu li:nth-child(1) .submenu,
+.sections .large-5,
+.sections .large-4,
+.blue_section .large-5,
+.blue_section .large-5,
+.blue_section .large-5 .openAll:hover,
+.kodda_menu_2,
+.kodda_menu_2  .kodda_submenu,
+.repeatableRow .sections .large-4 .post_list,
+.repeatableRow .sections .large-4 .equal:nth-child(5) .post_list
+
+{border-color:#448ccb}
+
+
+
+<!-- BACKGROUND COLOR -->
+
+.green_section .large-5 .image a,
+.green_section .large-5 .openAll:hover,
+.green_section .large-7 .bx-wrapper .bx-pager.bx-default-pager a:hover, 
+.green_section .large-7 .bx-wrapper .bx-pager.bx-default-pager a.active,
+.tags .tagsHead .tagsTitle,
+.tags .tagsHead .tagsLink,
+.tags .tagsHead .tagsLink a,
+.tags .post_blocks .tag,
+.authors .theAlmightyAuthor .inner .stats a,
+.green_section .post_blocks .image a,
+.kodda_menu_3:hover a.kodda_top_link,
+.green_section .post_list .openAll:hover,
+.repeatableRow .sections .large-4 .equal:nth-child(6) .post_list .image a,
+.repeatableRow .sections .large-4 .equal:nth-child(6) .post_list .openAll:hover
+
+{background-color:#197b30}
+
+<!-- COLOR -->
+
+.green_section .post_list li .title a,
+.green_section h2,
+.green_section .large-5 .title a:hover,
+.green_section .large-7 .title a:hover,
+.green_section .large-7 .info div a:hover,
+.tags .tagsHead .tagsLink:hover a,
+.authors .theAlmightyAuthor .inner .info a:hover,
+.authors .theAlmightyAuthor .inner .stats a:hover,
+.green_section .post_blocks .large-12:hover .title a,
+.repeatableRow .sections .large-4 .equal:nth-child(6) h2,
+.repeatableRow .sections .large-4 .equal:nth-child(6) .post_list li:hover .title a,
+.repeatableRow .sections .large-8 .middleColumn:nth-child(6) h2
+
+{color:#197b30}
+<!-- BORDER COLOR -->
+
+.menuArea .menu li:nth-child(3),
+.menuArea .menu li:nth-child(3) .submenu,
+.green_section .large-4,
+.green_section .large-5,
+.green_section .large-5 .openAll:hover,
+.tags .tagsHead,
+.kodda_menu_3,
+.kodda_menu_3  .kodda_submenu,
+.repeatableRow .sections .large-4 .equal:nth-child(6) .post_list
+
+{border-color:#197b30}
+
+
+
+<!-- BACKGROUND COLOR -->
+
+.categories .categoriesHead .categoryTitle,
+.categories .categoriesHead .categoryLink,
+.categories .categoriesHead .categoryLink a,
+.kodda_menu_4:hover a.kodda_top_link
+
+{background-color:#fff200}
+
+<!-- COLOR -->
+
+.categories .categoriesHead .categoryLink:hover a
+
+{color:#fff200}
+<!-- BORDER COLOR -->
+
+.menuArea .menu li:nth-child(4),
+.menuArea .menu li:nth-child(4) .submenu,
+.categories .categoriesHead,
+.kodda_menu_4,
+.kodda_menu_4  .kodda_submenu 
+
+{border-color:#fff200}
+
+
+
+<!-- BACKGROUND COLOR -->
+
+.orange_section .large-5 .image a,
+.orange_section .large-5 .openAll:hover, 
+.orange_section .large-7 .bx-wrapper .bx-pager.bx-default-pager a:hover, 
+.orange_section .large-7 .bx-wrapper .bx-pager.bx-default-pager a.active,
+.orange_section .post_blocks .image a,
+.kodda_menu_5:hover a.kodda_top_link,
+.repeatableRow .sections .large-4 .equal:nth-child(4) .post_list .image a,
+.repeatableRow .sections .large-4 .equal:nth-child(4) .post_list .openAll:hover 
+{
+	background-color:#f26c4f
+}
+
+<!-- COLOR -->
+
+.orange_section .post_list li:hover .title a,
+.orange_section h2,
+.orange_section .large-5 .title a:hover,
+.orange_section .large-7 .title a:hover,
+.orange_section .large-7 .info div a:hover,
+.orange_section .post_blocks .large-12:hover .title a,
+.repeatableRow .sections .large-4 .equal:nth-child(4) h2,
+.repeatableRow .sections .large-4 .equal:nth-child(4) .post_list li:hover .title a,
+.repeatableRow .sections .large-8 .middleColumn:nth-child(4) h2
+{
+	color:#f26c4f
+}
+
+<!-- BORDER COLOR -->
+
+.menuArea .menu li:nth-child(5),
+.menuArea .menu li:nth-child(5) .submenu,
+.orange_section .large-4,
+.orange_section .large-5,
+.orange_section .large-5 .openAll:hover ,
+.kodda_menu_5,
+.kodda_menu_5  .kodda_submenu,
+.repeatableRow .sections .large-4 .equal:nth-child(4) .post_list
+{
+	border-color:#f26c4f
+
+}
+<!-- BACKGROUND COLOR -->
+
+.menuArea, .regularMenu .sub-menu, .newsScollers .scroller .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .addLeft .additionalImages .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar
+{
+	background:#404040;
+}
+.newsScollers .scroller ul li
+{
+  border-top-color:#404040;
+}
+.kodda_responsive_content  {
+  background:#404040!important;
+}
+
+.logoArea, .footer, .sideContact, .addLeft .additionalImages, .newsScollers .scroller, .newsScollers .scrollTitle, .newsScollers .addStories, .kodda_menu_posts .kodda_submenu, .kodda_menu_links .kodda_submenu, .kodda_menu_html .kodda_submenu, .kodda_menu_dropdowns .kodda_submenu, .kodda_submenu_dropdown_level_two, .singleWidgets .widget-title
+{
+	background:#363636
+}
+.latestGalleryWrap .bx-wrapper
+{
+	border-color:#363636
+}
+.newsScollers .scroller ul li
+{
+	border-bottom-color:#2b2b2b
+}
+.kodda_top_link_current
+
+{
+	background-color:#2b2b2b !important
+}
+
+body.custom-background { 
+	background-color: #f2f2f2; 
+}
+.logoArea .large-4 img{
+	margin-top:18;
+	margin-right:0;
+	margin-bottom:0;
+	margin-left:0;
+}
+.homeslider .textHold h1{
+	font-weight:normal;
+	font-style:normal;
+}
+.homeslider .large-4 .textHold h1{
+	font-weight:normal;font-style:normal;
+}
+.homeslider .textHold p{
+	font-weight:normal;
+	font-style:normal;
+}
+.homeslider .textHold .more{
+	font-weight:normal;
+	font-style:normal;
+}
+ul.newsticker, .ticker ul li{
+	font-weight:normal;
+	font-style:normal;
+}
+.single h3{
+	font-weight:normal;
+	font-style:normal;
+}
+.single .bottom12, .tags .post_blocks .info, .categories .post_blocks .info{
+	font-weight:normal;
+	font-style:normal;
+}
+.single .texty .text p, .about .aboutRow p, .about .aboutRow .brands .large-6 ul li, .tags .post_blocks p, .categories .post_blocks p, .shortcodes #ToggleList p.desc, body, .contact .innerContact p{
+	font-weight:normal;
+	font-style:normal;
+}
+.post_x2 .title, .middleColumn .large-12 .large-6 .title{
+	font-weight:normal;
+	font-style:normal;
+}
+.post_x2 p, .middleColumn .large-12 .large-6 p{
+	font-weight:normal;
+	font-style:normal;
+}
+.post_x2 .info, .middleColumn .large-12 .large-6 .info{
+	font-weight:normal;
+	font-style:normal;
+}
+.post_list .title, .post_blocks .title, .popularDiv ul li a{
+	font-weight:normal;
+	font-style:normal;
+}
+.post_list .info, .post_blocks .info, .popularDiv ul li .info{
+	font-weight:normal;
+	font-style:normal;
+}
+.newsScollers .featuredImage .textHold h1{
+	font-weight:normal;
+	font-style:normal;
+}
+.newsScollers .featuredImage .textHold p{
+	font-weight:normal;
+	font-style:normal;
+}
+.newsScollers .scroller .title{
+	font-weight:normal;
+	font-style:normal;
+}
+.newsScollers .scroller .info{
+	font-weight:normal;
+	font-style:normal;
+}
+.thumbSlider #slidecaption h4{
+	font-weight:normal;
+	font-style:normal;
+}
+.thumbSlider #slidecaption h2{
+	font-weight:normal;
+	font-style:normal;
+}
+.thumbSlider #slidecaption p{
+	font-weight:normal;
+	font-style:normal;
+}
+.thumbSlider #slidecaption .readMore{
+	font-weight:normal;
+	font-style:normal;
+}
+.shopTabs .overHold .title{
+	font-weight:normal;
+	font-style:normal;
+}
+.hiddenDesc p{
+	font-weight:normal;
+	font-style:normal;
+}
+.shopTabs .large-3 .overHold .price{
+	font-weight:normal;
+	font-style:normal;
+}
+.footer .socialRow .title{
+	font-weight:normal;
+	font-style:normal;
+}
+.footer .socialRow .desc{
+	font-weight:normal;
+	font-style:normal;
+}
+
+.post_x2 .readMore,
+.newsScollers .addStories a,
+.middleColumn .large-12 .large-6 .readMore  { 
+	background: url(img/newReadMore.jpg) no-repeat left center;
+}
+
