@@ -21,6 +21,11 @@
     $cat_title = "Hosts";
     $cat_color = "#1CBBB4";
     endif;
+    if(is_category('radio')) : 
+
+    $cat_title = "Radio";
+    $cat_color = "#92278F";
+    endif;
     ?>
       <div class="row tagsHead" style="border-bottom-color: <?php echo $cat_color;?>;">
         <div class="large-6 medium-6 columns">

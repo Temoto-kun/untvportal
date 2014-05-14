@@ -79,7 +79,7 @@
 
 		?>
 		<?php
-		if(in_category('programs')):
+		if(in_category('programs') || in_category('radio')):
 		$args=array('posts_per_page'=>-1, 'tag' => $tag, 'category_name' =>'programs-schedule');
 		$wp_query = new WP_Query( $args );
 		
@@ -140,7 +140,7 @@
 	         </div>
 	     </div>
    		<?php
-   		if(in_category('programs')):
+   		if(in_category('programs') || in_category('radio')):
    		$args=array('posts_per_page'=>-1, 'tag' => $tag, 'category_name' =>'programs-host');
    		$wp_query = new WP_Query( $args );
    		
