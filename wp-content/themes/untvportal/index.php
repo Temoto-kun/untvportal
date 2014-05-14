@@ -435,7 +435,7 @@
 				              		<li>
 				              			<a href="https://plus.google.com/share?url=http://ava-themes.com/WP/United/crimes-of-the-hot-2/"  target="blank"><i class="fa fa-google-plus"></i></a>
 				              		</li>
-				              		li>
+				              		<li>
 				              			<a class="" href="http://twitter.com/share?url=http://ava-themes.com/WP/United/crimes-of-the-hot-2/&text=The park-bench workout: five simple exercises on United" target="_blank"><i class="fa fa-twitter"></i></a>
 				              		</li>
 				              		<li>
@@ -966,7 +966,8 @@ get_footer();?>
 ?>
 <script type="text/javascript">
 jwplayer('untvwebstreamdiv').setup({
-	'skin': '<?php echo get_template_directory_uri(); ?>/player_skins/five/src/five.xml',
+	'skin':'<?php echo get_template_directory_uri(); ?>/player_skins/untvradio.zip',
+	//'skin': '<?php echo get_template_directory_uri(); ?>/player_skins/five/src/five.xml',
     'flashplayer': 'http://www.untvweb.com/players/player.swf',
     'width': '399',
     'height': '336',
@@ -986,8 +987,10 @@ jwplayer('untvwebstreamdiv').setup({
             }]
     });
 
-    jwplayer('mediaplayer').setup({  
-        'flashplayer': 'http://www.untvradio.com/wp-content/themes/untvradio/jwplayers/player.swf',
+    jwplayer('mediaplayer').setup({
+		'skin':'<?php echo get_template_directory_uri(); ?>/player_skins/untvradio.zip',
+		'flashplayer': 'http://www.untvweb.com/players/player.swf',
+        //'flashplayer': 'http://www.untvradio.com/wp-content/themes/untvradio/jwplayers/player.swf',
         'id': 'playerID',  
         'screencolor': 'b2b2b2',
         'autostart': 'false',    
@@ -996,7 +999,6 @@ jwplayer('untvwebstreamdiv').setup({
         'provider': 'rtmp', 
         'streamer': 'rtmp://livestream01.untvradio.com/public/',
         'file': 'untvradiostream',
-        'skin':'http://www.untvradio.com/wp-content/themes/untvradio/jwplayers/skins/untvradio.zip',
         'abouttext': 'UNTV Radio',     
         'aboutlink': 'untvradio', 
         'controlbar':'bottom',

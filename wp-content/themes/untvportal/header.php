@@ -243,13 +243,14 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 								<?php endforeach; ?>
 									<div class="kodda_resp_submenu_posts_content_cat" >
 										<div class="kodda_clearfix" ></div>
-										<a class="kodda_resp_posts_cat kodda_resp_posts_cat_1 " href="<?php echo site_url()."/programs" ?>" data-prevent="yes" >View more Programs >>> 
+										<a class="kodda_resp_posts_cat kodda_resp_posts_cat_1 " href="<?php echo site_url()."/radio" ?>" data-prevent="yes" >View more Programs >>> 
 										
 										</a> 
 
 									</div><!--kodda_resp_submenu_posts_content_cat-->
 									</div><!--kodda_resp_submenu-->
 								</div><!--kodda_resp_menu-->
+								
 
 			<div class="kodda_resp_menu kodda_resp_menu_3 kodda_resp_menu_posts" data-menu_type="posts" >
 
@@ -412,14 +413,47 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 									</div><!--kodda_resp_submenu-->
 								</div><!--kodda_resp_menu-->
 
-						<div class="kodda_resp_menu kodda_resp_menu_6 kodda_resp_menu_links " data-menu_type="links" >
+						
+						<div class="kodda_resp_menu kodda_resp_menu_6 kodda_resp_menu_posts" data-menu_type="posts" >
 
-							<a href="<?php echo site_url()."/radio"?>" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Radio
+							<a href="<?php echo site_url()."/radio"?>" class="kodda_resp_top_link  " data-prevent="yes" >Radio 
 								<span class="ct_font_box" >
 									<span aria-hidden="true" class="icon ct-carret-down" ></span>
 								</span> 
 							</a>
-						</div><!--kodda_resp_menu-->
+
+								<div class="kodda_resp_submenu kodda_resp_submenu_1">
+									<?php
+									   $category = "radio";
+									   $category_post = get_posts('numberposts=5&offset=0&orderby=title&order=ASC&category_name='.$category);
+									   foreach($category_post as $post) :
+									   setup_postdata($post);
+									   
+									
+									    $thumbnail_id = get_post_thumbnail_id($post->ID);
+									    $thumbnail_object = get_post($thumbnail_id);
+									    
+									?>
+									<div class="kodda_resp_submenu_posts_content_cat" >
+										<div class="kodda_clearfix" ></div>
+										<a class="kodda_resp_posts_cat kodda_resp_posts_cat_1 " href="http://ava-themes.com/WP/United/crimes-of-the-hot-5/" data-prevent="yes" ><?php the_title(); ?> 
+											<!-- <span class="ct_font_box" >
+												<span aria-hidden="true" class="icon ct-carret-down" ></span>
+											</span>  -->
+										</a> 
+
+									</div><!--kodda_resp_submenu_posts_content_cat-->
+								<?php endforeach; ?>
+									<div class="kodda_resp_submenu_posts_content_cat" >
+										<div class="kodda_clearfix" ></div>
+										<a class="kodda_resp_posts_cat kodda_resp_posts_cat_1 " href="<?php echo site_url()."/radio" ?>" data-prevent="yes" >View more Programs >>> 
+										
+										</a> 
+
+									</div><!--kodda_resp_submenu_posts_content_cat-->
+									</div><!--kodda_resp_submenu-->
+								</div><!--kodda_resp_menu-->
+								
 
 						<div class="kodda_resp_menu kodda_resp_menu_7 kodda_resp_menu_links " data-menu_type="links" >
 
@@ -552,7 +586,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 						</div><!--kodda_submenu-->
 					</div><!--kodda_menu-->
 
-					<div class="kodda_menu kodda_menu_3 kodda_menu_mobile kodda_menu_mobile_3 kodda_menu_posts" data-menu_type="posts" >
+					<div class="kodda_menu kodda_menu_3 kodda_menu_mobile kodda_menu_mobile_2 kodda_menu_posts" data-menu_type="posts" >
 
 						<a href="#" class="kodda_top_link  " data-prevent="yes" >News
 							<span class="ct_font_box">
@@ -757,9 +791,9 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 						</div><!--kodda_submenu-->
 					</div><!--kodda_menu-->
 
-				<div class="kodda_menu kodda_menu_6 kodda_menu_mobile kodda_menu_mobile_6 kodda_menu_posts" data-menu_type="posts" >
+				<div class="kodda_menu kodda_menu_6 kodda_menu_mobile kodda_menu_mobile_2 kodda_menu_posts" data-menu_type="posts" >
 
-					<a href="<?php echo site_url()."/programs"?>" class="kodda_top_link  " data-prevent="yes" >Radio
+					<a href="<?php echo site_url()."/radio"?>" class="kodda_top_link  " data-prevent="yes" >Radio
 						<span class="ct_font_box">
 							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
 						</span>
@@ -787,7 +821,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 									</span>
 								</a>
 							<?php endforeach;?>
-							<a class="kodda_posts_cat kodda_posts_cat_1" href="<?php echo site_url()."/programs" ?>" data-prevent="yes" data-encoded_cat="421b47ffd946ca083b65cd668c6b17e6" >
+							<a class="kodda_posts_cat kodda_posts_cat_1" href="<?php echo site_url()."/radio" ?>" data-prevent="yes" data-encoded_cat="421b47ffd946ca083b65cd668c6b17e6" >
 								<span>View more Programs >>> </span>
 								<span class="ct_font_box">
 									<span aria-hidden="true" class="icon ct-angle-right" data-stat="hide" ></span>
