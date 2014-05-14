@@ -80,7 +80,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
                                 
           <a class="socialIcon" href="https://twitter.com/UNTVweb" target="_blank"><i class="fa fa-twitter"></i></a>                        
                                 
-          <a class="socialIcon" href="http://www.youtube.com/user/untvweb" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          <a class="socialIcon" href="https://www.youtube.com/user/untvweb" target="_blank"><i class="fa fa-youtube-play"></i></a>
           
           <a class="socialIcon" href="mailto:info@untvweb.com" target="_blank"><i class="fa fa-envelope"></i></a>                        
                                 <!--

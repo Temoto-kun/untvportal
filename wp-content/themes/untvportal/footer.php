@@ -5,14 +5,14 @@
       <div class="row socialRow">
                   <div class="large-4 medium-4 small-6 columns">
                             <div class="large-3 medium-3 small-5 columns socials">
-    <a class="socialIcon" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a class="socialIcon" href="https://www.facebook.com/UNTVweb" target="_blank"><i class="fa fa-facebook"></i></a>
 </div>
 <div class="large-9 medium-9 small-7 columns">
     <div class="title">
         <a href="#">Like us on Facebook</a>
     </div>
     <div class="desc">
-        Donec sed odio dui. Duis mollis, est           
+        UNTV - Your Public Service Channel           
     </div>
 </div>             
           </div>          
@@ -20,14 +20,14 @@
 
                   <div class="large-4 medium-4 small-6 columns">
                             <div class="large-3 medium-3 small-5 columns socials">
-    <a class="socialIcon" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a class="socialIcon" href="https://twitter.com/UNTVweb" target="_blank"><i class="fa fa-twitter"></i></a>
 </div>
 <div class="large-9 medium-9 small-7 columns">
     <div class="title">
         <a href="#">Follow us on Twitter</a>
     </div>
     <div class="desc">
-        Donec sed odio dui. Duis mollis, est           
+        UNTV Channel 37 (@UNTVWeb)
     </div>
 </div>             
           </div>          
@@ -35,14 +35,14 @@
 
                   <div class="large-4 medium-4 small-6 columns">
                             <div class="large-3 medium-3 small-5 columns socials">
-    <a class="socialIcon" href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+    <a class="socialIcon" href="https://www.youtube.com/user/untvweb" target="_blank"><i class="fa fa-youtube-play"></i></a>
 </div>
 <div class="large-9 medium-9 small-7 columns">
     <div class="title">
-        <a href="#">Follow us on Pinterest</a>
+        <a href="#">Follow us on YouTube</a>
     </div>
     <div class="desc">
-        Donec sed odio dui. Duis mollis, est           
+        untvweb           
     </div>
 </div>             
           </div>          
@@ -117,11 +117,10 @@
 </li>
 <li id="menu-item-256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-256"><a href="http://ava-themes.com/WP/United/contact/">Contact</a>
 <ul class="sub-menu">
-  <li id="menu-item-312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-312"><a href="#">Facebook</a></li>
-  <li id="menu-item-313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-313"><a href="#">Twitter</a></li>
-  <li id="menu-item-314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-314"><a href="#">Vimeo</a></li>
-  <li id="menu-item-315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-315"><a href="#">Youtube</a></li>
-  <li id="menu-item-316" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-316"><a href="#">Dribbble</a></li>
+  <li id="menu-item-312" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-312"><a href="https://www.facebook.com/UNTVweb">Facebook</a></li>
+  <li id="menu-item-313" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-313"><a href="https://twitter.com/UNTVweb">Twitter</a></li>
+  <li id="menu-item-315" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-315"><a href="https://www.youtube.com/user/untvweb">Youtube</a></li>
+  <li id="menu-item-316" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-316"><a href="mailto:info@untvweb.com">Email</a></li>
 </ul>
 </li>
 </ul></div>        
