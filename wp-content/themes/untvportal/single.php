@@ -11,7 +11,7 @@
  
 
 
-<div id="wrapper">  
+<div id="wrapper">
 <?php while ( have_posts() ) : the_post(); ?>
 	<?php
 
@@ -165,7 +165,7 @@
                        </div>
 
                          <div class="title">
-                           <a href="<?php the_permalink();?>"><?php the_title();?></a>
+                           <a href="<?php the_permalink();?>"><?php the_title(); ?></a>
                          </div>
                          
                          <?php the_excerpt();?>

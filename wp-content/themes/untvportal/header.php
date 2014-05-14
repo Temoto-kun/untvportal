@@ -76,17 +76,20 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
       <div class="socials"> 
 
                                 
-          <a class="socialIcon" href="#" target="_blank"><i class="fa fa-facebook"></i></a>                        
+          <a class="socialIcon" href="https://www.facebook.com/UNTVweb" target="_blank"><i class="fa fa-facebook"></i></a>                        
                                 
-          <a class="socialIcon" href="#" target="_blank"><i class="fa fa-twitter"></i></a>                        
+          <a class="socialIcon" href="https://twitter.com/UNTVweb" target="_blank"><i class="fa fa-twitter"></i></a>                        
                                 
-          <a class="socialIcon" href="#" target="_blank"><i class="fa fa-youtube-square"></i></a>                        
-                                
+          <a class="socialIcon" href="http://www.youtube.com/user/untvweb" target="_blank"><i class="fa fa-youtube-play"></i></a>
+          
+          <a class="socialIcon" href="mailto:info@untvweb.com" target="_blank"><i class="fa fa-envelope"></i></a>                        
+                                <!--
           <a class="socialIcon" href="#" target="_blank"><i class="fa fa-tumblr"></i></a>                        
                                 
           <a class="socialIcon" href="#" target="_blank"><i class="fa fa-instagram"></i></a>                        
                                 
-          <a class="socialIcon" href="#" target="_blank"><i class="fa fa-dribbble"></i></a>                        
+          <a class="socialIcon" href="#" target="_blank"><i class="fa fa-dribbble"></i></a>  
+          -->                      
            
 
       </div>  
@@ -110,12 +113,14 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
           <a href="#" data-reveal-id="login-modal" data-reveal class="userLogin">
             <i class="fa fa-user"></i>
           </a>
-        </div>                    
+        </div>
+        <!--                   
         <div class="phone hide-for-1023">              
                           <i class="fa fa-phone"></i>
             +123 45 6789 
                            
         </div>
+        -->
 
       </div>        
     </div>
@@ -509,7 +514,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 						<div class="kodda_resp_menu kodda_resp_menu_8 kodda_resp_menu_links " data-menu_type="links" >
 
-							<a href="http://ava-themes.com/WP/United/contact/" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Contact 
+							<a href="<?php echo site_url()."/contact"?>" class="kodda_resp_top_link kodda_resp_top_link_same_padding " data-prevent="no" >Contact 
 								<span class="ct_font_box" >
 									<span aria-hidden="true" class="icon ct-carret-down" ></span>
 								</span> 
@@ -1034,7 +1039,7 @@ var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:fal
 
 				<div class="kodda_menu kodda_menu_8 kodda_menu_mobile kodda_menu_mobile_8 kodda_menu_links" data-menu_type="links" >
 
-					<a href="http://ava-themes.com/WP/United/contact/" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Contact
+					<a href="<?php echo site_url()."/contact"?>" class="kodda_top_link  kodda_top_link_same_padding" data-prevent="yes" >Contact
 						<span class="ct_font_box">
 							<span aria-hidden="true" class="icon ct-caret-down" data-stat="hide" ></span>
 						</span>
