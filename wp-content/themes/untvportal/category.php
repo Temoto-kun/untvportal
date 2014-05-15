@@ -124,7 +124,7 @@
 							//'flashplayer': 'http://www.untvradio.com/wp-content/themes/untvradio/jwplayers/player.swf',
 							'id': 'playerID',  
 							'screencolor': 'b2b2b2',
-							'autostart': 'false',    
+							'autostart': 'true',    
 							'width': '399',     
 							'height': '45',
 							'provider': 'rtmp', 
