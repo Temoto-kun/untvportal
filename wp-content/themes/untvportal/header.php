@@ -28,6 +28,9 @@
 <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/hoverIntent.min.js?ver=r7'></script>
 <script type='text/javascript' src='<?php echo get_template_directory_uri(); ?>/js/frontend.min.js?ver=2.0.0'></script>
 
+
+     				 	<script type="text/javascript" src="http://www.untvweb.com/players/jwplayer.js"></script>
+
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://ava-themes.com/WP/United/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ava-themes.com/WP/United/wp-includes/wlwmanifest.xml" /> 
 <link rel='prev' title='Shortcodes &#8211; Boxes' href='http://ava-themes.com/WP/United/shortcodes-boxes/' />

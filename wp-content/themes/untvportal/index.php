@@ -919,17 +919,35 @@
                 <h3 class="widget-title" style="margin:0px;">Live Stream</h3>
                 <div class="wp_bannerize side">
      				 <div style="background:#EBEBEB; width:100%; height:300px; ">
-     				 	<script type="text/javascript" src="http://www.untvweb.com/players/jwplayer.js"></script>
      				 		<div id="untvwebstream">
      				 		
      				 	
      				 		
      				 		<object type="application/x-shockwave-flash" data="http://www.untvweb.com/players/player.swf" width="100%" height="100%" bgcolor="#000000" id="untvwebstreamdiv" name="untvwebstreamdiv" tabindex="0"><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always" /><param name="seamlesstabbing" value="true"/><param name="wmode" value="opaque" /><param name="flashvars" value="netstreambasepath=http%3A%2F%2Fwww.untvweb.com%2Flive-stream%2F&amp;id=untvwebstreamdiv&amp;flashplayer=http%3A%2F%2Fwww.untvweb.com%2Fplayers%2Fplayer.swf&amp;provider=rtmp&amp;streamer=rtmp%3A%2F%2Flivestream01.untvweb.com%2Fpublic%2F&amp;autostart=true&amp;stretching=exactfit&amp;file=untvwebstream&amp;abouttext=UNTV%20Web&amp;aboutlink=mailto%3Ainfo%40untvweb.com&amp;controlbar.position=over" /></object>
      				 		</div>
+     				 		<script type="text/javascript">
+							jwplayer('untvwebstreamdiv').setup({
+								'skin':'<?php echo get_template_directory_uri(); ?>/player_skins/untvradio.zip',
+								'flashplayer': 'http://www.untvweb.com/players/player.swf',
+								'width': '399',
+								'height': '336',
+								'provider': 'rtmp',  
+								'streamer': 'rtmp://livestream01.untvweb.com/public/',
+								'autostart': 'true',
+								'stretching': 'exactfit',
+								'file': 'untvwebstream',
+								'abouttext': 'UNTV Web',
+								'aboutlink': 'mailto:info@untvweb.com',
+								'modes':[{type: 'flash', src: 'http://www.untvweb.com/players/player.swf'},{
+										type: 'html5',
+										config: {
+											levels: [ {'file': 'http://livestream01.untvweb.com:1935/public/untvwebstream/playlist.m3u8'} ],
+											'provider': 'video'
+											}
+										}]
+								});
+							</script>
      				 		<!-- PLAYER DEFINITION WITH HTML 5 FALL BACK-->
-     				 	
-     				 	
-
       				</div>
       			</div>  
       		  </div>
@@ -941,6 +959,40 @@
 	                     <object type="application/x-shockwave-flash" data="http://www.untvradio.com/wp-content/themes/untvradio/jwplayers/player.swf" width="100%" height="100%" bgcolor="#000000" id="mediaplayer" name="mediaplayer" tabindex="0"><param name="allowfullscreen" value="true"><param name="allowscriptaccess" value="always"><param name="seamlesstabbing" value="true"><param name="wmode" value="opaque"><param name="flashvars" value="netstreambasepath=http%3A%2F%2Fwww.untvradio.com%2F&amp;id=mediaplayer&amp;flashplayer=http%3A%2F%2Fwww.untvradio.com%2Fwp-content%2Fthemes%2Funtvradio%2Fjwplayers%2Fplayer.swf&amp;screencolor=b2b2b2&amp;autostart=true&amp;provider=rtmp&amp;streamer=rtmp%3A%2F%2Flivestream01.untvradio.com%2Fpublic%2F&amp;file=untvradiostream&amp;skin=http%3A%2F%2Fwww.untvradio.com%2Fwp-content%2Fthemes%2Funtvradio%2Fjwplayers%2Fskins%2Funtvradio.zip&amp;abouttext=UNTV%20Radio&amp;aboutlink=untvradio&amp;controlbar.position=bottom"></object></div>
 	                     
 	                 </div>
+	                 <script type="text/javascript">
+						jwplayer('mediaplayer').setup({
+							'skin':'<?php echo get_template_directory_uri(); ?>/player_skins/untvradio.zip',
+							'flashplayer': 'http://www.untvweb.com/players/player.swf',
+							//'flashplayer': 'http://www.untvradio.com/wp-content/themes/untvradio/jwplayers/player.swf',
+							'id': 'playerID',  
+							'screencolor': 'b2b2b2',
+							'autostart': 'false',    
+							'width': '399',     
+							'height': '45',
+							'provider': 'rtmp', 
+							'streamer': 'rtmp://livestream01.untvradio.com/public/',
+							'file': 'untvradiostream',
+							'abouttext': 'UNTV Radio',     
+							'aboutlink': 'mailto:info@untvradio.com', 
+							'controlbar':'bottom',
+							'events': {
+									onBufferChange: function(event) { document.getElementById('PlayerStatus').innerHTML = "Buffering..." },
+									onPlay: function(event) { document.getElementById('PlayerStatus').innerHTML = "Playing..."; },
+									onBuffer: function(event) { document.getElementById('PlayerStatus').innerHTML = "Buffering..."; },
+									onIdle: function(event) { document.getElementById('PlayerStatus').innerHTML = "Connection Idle."; },
+									onPause: function(event) { document.getElementById('PlayerStatus').innerHTML = "Stopped"; }
+							},
+							'modes':[{type: 'flash', src: 'http://www.untvradio.com/wp-content/themes/untvradio/jwplayers/player.swf'},{     
+									type: 'html5',        
+									config: {             
+										levels: [ {
+												'file': 'http://livestream01.untvradio.com:1935/public/untvradiostream/playlist.m3u8'
+											} ],                                                   
+										'provider': 'audio'
+									}                     
+								}]             
+						});				
+					</script>
 	                 <!-- <div id="PlayerStatus">Playing...</div> -->
 	                 <div class="clear"></div>
       		     </div>
@@ -958,87 +1010,3 @@
 
 get_footer();?>
 ?>
-<script type="text/javascript">
-jwplayer('untvwebstreamdiv').setup({
-	'skin':'<?php echo get_template_directory_uri(); ?>/player_skins/untvradio.zip',
-	//'skin': '<?php echo get_template_directory_uri(); ?>/player_skins/five/src/five.xml',
-    'flashplayer': 'http://www.untvweb.com/players/player.swf',
-    'width': '399',
-    'height': '336',
-    'provider': 'rtmp',  
-    'streamer': 'rtmp://livestream01.untvweb.com/public/',
-    'autostart': 'true',
-    'stretching': 'exactfit',
-    'file': 'untvwebstream',
-    'abouttext': 'UNTV Web',
-    'aboutlink': 'mailto:info@untvweb.com',
-    'modes':[{type: 'flash', src: 'http://www.untvweb.com/players/player.swf'},{
-            type: 'html5',
-            config: {
-                levels: [ {'file': 'http://livestream01.untvweb.com:1935/public/untvwebstream/playlist.m3u8'} ],
-                'provider': 'video'
-                }
-            }]
-    });
-
-    jwplayer('mediaplayer').setup({
-		'skin':'<?php echo get_template_directory_uri(); ?>/player_skins/untvradio.zip',
-		'flashplayer': 'http://www.untvweb.com/players/player.swf',
-        //'flashplayer': 'http://www.untvradio.com/wp-content/themes/untvradio/jwplayers/player.swf',
-        'id': 'playerID',  
-        'screencolor': 'b2b2b2',
-        'autostart': 'false',    
-        'width': '399',     
-        'height': '45',
-        'provider': 'rtmp', 
-        'streamer': 'rtmp://livestream01.untvradio.com/public/',
-        'file': 'untvradiostream',
-        'abouttext': 'UNTV Radio',     
-        'aboutlink': 'mailto:info@untvradio.com', 
-        'controlbar':'bottom',
-        'events': {
-                onBufferChange: function(event) { document.getElementById('PlayerStatus').innerHTML = "Buffering..." },
-                onPlay: function(event) { document.getElementById('PlayerStatus').innerHTML = "Playing..."; },
-                onBuffer: function(event) { document.getElementById('PlayerStatus').innerHTML = "Buffering..."; },
-                onIdle: function(event) { document.getElementById('PlayerStatus').innerHTML = "Connection Idle."; },
-                onPause: function(event) { document.getElementById('PlayerStatus').innerHTML = "Stopped"; }
-        },
-        'modes':[{type: 'flash', src: 'http://www.untvradio.com/wp-content/themes/untvradio/jwplayers/player.swf'},{     
-                type: 'html5',        
-                config: {             
-                    levels: [ {
-                            'file': 'http://livestream01.untvradio.com:1935/public/untvradiostream/playlist.m3u8'
-                        } ],                                                   
-                    'provider': 'audio'
-                }                     
-            }]             
-    });				
-
-</script>
-<script>
-
-if (typeof jQuery != "undefined") {
-    (function($) {
-        $(document).ready(function() {
-        
-  // $.getJSON("https://public-api.wordpress.com/rest/v1/sites/dev-cli.cloudapp.net%2Funtvnews/posts/callback=data",{format: "jsonp"}).done(function(data){});
-  $.ajax({
-    dataType : "jsonp",
-    url : "https://public-api.wordpress.com/rest/v1/sites/dev-cli.cloudapp.net%2Funtvnews/posts?category=breaking news",
-    success : function(data){
-      $.each(data.posts, function(i, post){
-      
-        $("ul#tickerHorizontal").append(' <li><i class="fa fa-arrow-circle-o-right"></i><a href="'+post.short_URL+'">'+post.title+'</a></li>');
-      });
-      //Horizontal Ticker
-      $("ul#tickerHorizontal").liScroll(
-        {travelocity: 0.1}
-        );    
-    }
-  });
-
-
-});
-})(jQuery);
-}
-</script>

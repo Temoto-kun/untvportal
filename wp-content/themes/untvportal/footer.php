@@ -282,7 +282,6 @@ if (typeof jQuery != "undefined") {
     url : "https://public-api.wordpress.com/rest/v1/sites/dev-cli.cloudapp.net%2Funtvnews/posts?number=3&category=world&order_by=date&order=DESC",
     success : function(data){
       $.each(data.posts, function(i, post){
-      console.log(post);
       var attachId = post.ID + 1;
       
         
@@ -294,6 +293,34 @@ if (typeof jQuery != "undefined") {
   });
 
  
+});
+})(jQuery);
+}
+</script>
+
+<script>
+
+if (typeof jQuery != "undefined") {
+    (function($) {
+        $(document).ready(function() {
+        
+  // $.getJSON("https://public-api.wordpress.com/rest/v1/sites/dev-cli.cloudapp.net%2Funtvnews/posts/callback=data",{format: "jsonp"}).done(function(data){});
+  $.ajax({
+    dataType : "jsonp",
+    url : "https://public-api.wordpress.com/rest/v1/sites/dev-cli.cloudapp.net%2Funtvnews/posts?category=breaking news",
+    success : function(data){
+      $.each(data.posts, function(i, post){
+      
+        $("ul#tickerHorizontal").append(' <li><i class="fa fa-arrow-circle-o-right"></i><a href="'+post.short_URL+'">'+post.title+'</a></li>');
+      });
+      //Horizontal Ticker
+      $("ul#tickerHorizontal").liScroll(
+        {travelocity: 0.1}
+        );    
+    }
+  });
+
+
 });
 })(jQuery);
 }
